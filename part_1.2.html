@@ -1,0 +1,1031 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <title>Suppablog - Minimal Blog Html Template</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Template by Colorlib"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP"/>
+    <meta name="author" content="Colorlib"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="images/favicon.png"/>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href='css/clear.css'/>
+    <link rel="stylesheet" type="text/css" href='css/common.css'/>
+    <link rel="stylesheet" type="text/css" href='css/font-awesome.min.css'/>
+    <link rel="stylesheet" type="text/css" href='css/carouFredSel.css'/>
+    <link rel="stylesheet" type="text/css" href='css/sm-clean.css'/>
+    <link rel="stylesheet" type="text/css" href='style.css'/>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="single-post">
+
+<!-- Preloader Gif -->
+<table class="doc-loader">
+    <tbody>
+    <tr>
+        <td>
+            <img src="images/ajax-document-loader.gif" alt="Loading...">
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<!-- Left Sidebar -->
+<div id="sidebar" class="sidebar">
+    <div class="menu-left-part">
+        <div class="search-holder">
+            <label>
+                <input type="search" class="search-field" placeholder="Type here to search..." value="" name="s"
+                       title="Search for:">
+            </label>
+        </div>
+        <div class="site-info-holder">
+            <h1 class="site-title">Учебник по курсу</h1>
+            <p class="site-description">
+                «GSM and mobility management»
+                (GSM и управление мобильностью)
+            </p>
+        </div>
+        <nav id="header-main-menu">
+            <ul class="main-menu sm sm-clean">
+                <li><a href="index.html" class="current">Главный</a></li>
+                <li><a href="part_1.1.html">1.1. Принципы построения и основные характеристики стандарта GSM</a></li>
+                <li><a href="part_1.2.html">1.2. Архитектура сети GSM</a></li>
+                <li><a href="part_1.3.html">1.3. Технологии GPRS и EDGE
+                </a></li>
+                <li><a href="part_1.4.html">1.4. Географические зоны сети GSM</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <div class="footer-info">
+                ТАШКЕНТСКИЙ УНИВЕРСИТЕТ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ ИМЕНИ МУХАММАДА АЛ-ХОРЕЗМИЙ <br> Факультет «Радио и
+                мобильной связи» <a href="tuit.uz">Кафедра «Технологии мобильной связи»</a> Ташкент 2019 <i
+                    class="fa fa-book"></i>
+            </div>
+        </footer>
+    </div>
+    <div class="menu-right-part">
+        <div class="logo-holder">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Suppablog WP">
+            </a>
+        </div>
+
+        <div class="toggle-holder">
+            <div id="toggle">
+                <div class="menu-line"></div>
+            </div>
+        </div>
+        <div class="social-holder">
+            <div class="social-list">
+                <a href="part_1.html"><i class="fa fa-signal" title="Глава 1. Сотовая связь стандарта GSM"></i></a>
+                <a href="part_2.html"><i class="fa fa-mobile-phone" title="Глава 2. Управление мобильностью"></i></a>
+                <a href="part_3.html"><i class="fa fa-mixcloud"
+                                         title="Глава 3. Аспекты безопасности, протоколы сети, частотный план и структура кадров в стандарте GSM"></i></a>
+                <a href="part_4.html"><i class="fa fa-barcode"
+                                         title="Глава 4. Обработка речи в стандарте GSM и проблемы,  возникающие при передачи радиосигналов"></i></a>
+                <a href="part_5.html"><i class="fa fa-feed"
+                                         title="Глава 5. Управление сетями связи в стандарте GSM"></i></a>
+                <a href="part_6.html"><i class="fa fa-tablet" title="Глава 6. Мобильное приложение в стандартеGSM"></i></a>
+            </div>
+        </div>
+        <div class="fixed scroll-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<!-- Single Content -->
+<div id="content" class="site-content center-relative">
+    <div class="single-post-wrapper content-1070 center-relative">
+
+        <article class="center-relative">
+            <h1 class="entry-title">
+                Глава 1.2 Архитектура сети GSM
+            </h1>
+
+
+            <div class="entry-content">
+
+
+                <div class="content-wrap content-660 center-relative ">
+
+
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Сеть</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4>
+                        </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>GSM</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4>
+                            состоит из нескольких функциональных
+                            объектов, функции и интерфейсы которых
+                            показаны на </FONT></FONT><FONT SIZE=4>рис. 1.1</FONT><FONT COLOR="#0000ff"><FONT
+                                COLOR="#000000"><FONT SIZE=4><SPAN
+                                STYLE="text-decoration: none">[1-3]</SPAN></FONT></FONT></FONT><FONT
+                                SIZE=4>.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER
+                       STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <IMG SRC="images/src/html_ecf4c58a.jpg" NAME="Рисунок 29" ALIGN=BOTTOM
+                             WIDTH=551 HEIGHT=540 BORDER=0></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER
+                       STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Рис. 1.1.
+                        </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>Архитектура
+                            сети и интерфейсы GSM</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER
+                       STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Сеть</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4>
+                        </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>GSM</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4>
+                            включает три основные части:</FONT></FONT></FONT></P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>мобильные
+                            станции (MS), которые перемещаются с
+                            абонентом;</FONT></P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT
+                                COLOR="#000000"><FONT SIZE=4>подсистему
+                            базовых станций (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>BSS</FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>),
+                            которая управляет радиолинией </FONT></FONT></FONT>
+                        </P>
+                    </UL>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0.39in; line-height: 100%">
+                        <FONT SIZE=4>связи с мобильной станцией;</FONT></P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT
+                                COLOR="#000000"><FONT SIZE=4>подсистему
+                            сети (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>NSS</FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>),
+                            главная часть которой — центр коммутации
+                        </FONT></FONT></FONT>
+                        </P>
+                    </UL>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0.39in; line-height: 100%">
+                        <FONT SIZE=4>мобильной связи (MSC) — выполняет
+                            коммутацию между мобильными </FONT>
+                    </P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>станциями и
+                            между мобильными или стационарными
+                            сетевыми пользователями. MSC также
+                            управляет работой, связанной с
+                            передвижением абонента.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>На </FONT></FONT><FONT COLOR="#0000ff"><A
+                                HREF="https://www.intuit.ru/studies/courses/551/407/lecture/9332?page=2#image.1.1"><FONT
+                                COLOR="#000000"><FONT SIZE=4><SPAN
+                                STYLE="text-decoration: none">рис.1.1</SPAN></FONT></FONT></A></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            не показан центр обслуживания, который
+                            наблюдает за надежным функционированием
+                            и изменениями на сети. Мобильная станция
+                            (MS) и подсистема базовых станций (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4>BSS</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>)
+                            связываются по Um-интерфейсу, также
+                            известному как &quot;воздушный </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>интерфейс</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>&quot;
+                            или радиолиния связи. Подсистема базовых
+                            станций взаимодействует с центром
+                            коммутации мобильной связи по A интерфейсу.</FONT></FONT></FONT></P>
+                    <H4 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                        STYLE="text-indent: 0.39in; margin-top: 0in; margin-bottom: 0in; background: #ffffff">
+                        <FONT COLOR="#000000"><FONT SIZE=4>Мобильная станция(MS)
+                        </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="font-weight: normal">состоит
+из подвижной аппаратуры (терминал) и
+карты с интегральной схемой, включающей
+микропроцессор, которая называется
+модулем абонентской идентификации (SIM
+— Subscriber Identification Module). SIM-карта обеспечивает
+при перемещении пользователя доступ к
+оплаченным услугам независимо от
+используемого терминала. Вставляя
+SIM-карту в другой терминал GSM, пользователь
+может принимать вызовы, делать вызовы
+с этого терминала и получать другие
+услуги </SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="text-decoration: none"><B>[1-3]</B></SPAN></FONT></FONT></FONT><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">.</SPAN></FONT></H4>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Подвижная
+                            аппаратура однозначно определяется с
+                            помощью международного опознавательного
+                            кода мобильного оборудования (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>IMEI
+                        </I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>—
+                            International Mobile Equipment Identity). SIM-карта содержит
+                            международный опознавательный код
+                            мобильного абонента (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>IMSI</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            — International Mobile Subscriber Identity), используемый
+                            для идентификации абонента, секретный
+                            код для удостоверения подлинности и
+                            другую информацию.</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>IMEI</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            и </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>IMSI</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            независимы — это дает возможность
+                            обеспечить наиболее вероятное опознавание
+                            личности при передвижении абонента.
+                            SIM-карта может быть защищена против
+                            неправомочного использования паролем
+                            или личным номером.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=4>Применяются три типа оконечного
+                            оборудования подвижной станции:</FONT></P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>МТ0
+                            (Mobile Termination 0) — многофункциональная
+                            подвижная станция, в состав которой
+                            входит терминал данных с возможностью
+                            передачи и приема данных и речи;</FONT></P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>МТ1
+                            (Mobile Termination 1) — подвижная станция с
+                            возможностью связи </FONT>
+                        </P>
+                    </UL>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0.39in; line-height: 100%">
+                        <FONT SIZE=4>через терминал с ISDN;</FONT></P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>МТ2
+                            (Mobile Termination 2) — подвижная станция с
+                            возможностью подключения терминала
+                            для связи по протоколу МККТТ V-или
+                            Х-серий.</FONT></P>
+                    </UL>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>Терминальное
+                            оборудование</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            может состоять из оборудования одного
+                            или нескольких типов, такого как
+                            телефонная трубка с номеронабирателем,
+                            аппаратура передачи данных (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>DTE</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>),
+                            телекс и т. д.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=4>Различают следующие типы
+                            терминалов: </FONT>
+                    </P>
+                    <OL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+                            <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>ТЕ1 (Terminal
+                                Equipment — </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>терминальное
+                                оборудование</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                                обеспечивающее связь с ISDN; </FONT></FONT></FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+                            <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>ТЕ2 (Terminal
+                                Equipment — </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>терминальное
+                                оборудование</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                                обеспечивающее связь с любым оборудованием
+                                через протоколы МККТТ V- или Х-серий
+                                (связь с ISDN не обеспечивает). Терминал
+                                ТЕ2 может быть подключен как нагрузка
+                                к МТ1 (подвижной станции с возможностью
+                                связи с ISDN) через адаптер ТА.</FONT></FONT></FONT></P>
+                    </OL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#252525"><FONT SIZE=4>Упрощенная
+                            схема приемо-передатчика мобильной
+                            станции приведена на рис.1.2.</FONT></FONT></FONT></P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER
+                       STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <FONT COLOR="#252525"><IMG SRC="images/src/html_d3186e7a.png"
+                                                   NAME="Рисунок 22" ALIGN=BOTTOM WIDTH=616 HEIGHT=281 BORDER=0></FONT>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER
+                       STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#252525"><FONT SIZE=4>Рис.1.2.
+                            Упрощенная блок-схема приемо-передатчика</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER
+                       STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <FONT COLOR="#252525"><FONT SIZE=4>мобильной станции</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT COLOR="#252525"><FONT SIZE=4>В состав передатчика
+                            и приемника входят следующие блоки.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT COLOR="#252525"><FONT SIZE=4>В микрофоне речевой
+                            сигнал преобразуется в электрический,
+                            ширина спектра которого ограничена
+                            фильтром и составляет 4 КГц.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT COLOR="#252525"><FONT SIZE=4>Аналого-цифровой
+                            преобразователь (АЦП) преобразует в
+                            цифровую форму сигнал с выхода микрофона
+                            и вся последующая обработка и передача
+                            сигнала речи производится в цифровой
+                            форме, вплоть до обратного цифро-аналогового
+                            преобразования (ЦАП) на приеме.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT COLOR="#252525"><FONT SIZE=4>Кодер речи осуществляет
+                            кодирование сигнала речи в цифровой
+                            форме с целью сокращения объема
+                            информации, передаваемой по каналу
+                            связи. Декодер речи восстанавливает на
+                            приеме поступивший на него закодированный
+                            сигнал речи.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT COLOR="#252525"><FONT SIZE=4>Кодер канала добавляет
+                            в сигнал закодированной речи дополнительную
+                            информацию, предназначенную для защиты
+                            от ошибок на радиоучастке. Декодер
+                            канала проверяет принятую информацию
+                            на наличие ошибок и выявленные ошибки
+                            по возможности исправляет.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT COLOR="#252525"><FONT SIZE=4>Модулятор осуществляет
+                            перенос информации на несущую частоту.
+                            Демодулятор выделяет из модулированного
+                            радиосигнала несущую информацию.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#252525"><FONT SIZE=4>Подробнее
+                            все этапы обработки будут рассмотрены
+                            в последующем изложении материала.</FONT></FONT></FONT></P>
+                    <H4 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                        STYLE="text-indent: 0.39in; margin-top: 0in; margin-bottom: 0in; background: #ffffff">
+                        <FONT COLOR="#000000"><FONT SIZE=4>Подсистема базовых
+                            станций </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="font-weight: normal">содержит
+два вида оборудования: базовая
+приемопередающая станция (</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><B>BTS</B></I></FONT></FONT><FONT
+                            COLOR="#000000"><FONT SIZE=4><SPAN STYLE="font-weight: normal">
+— Base </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><B>Transceiver</B></I></FONT></FONT><FONT
+                            COLOR="#000000"><FONT SIZE=4><SPAN STYLE="font-weight: normal">
+Station) и контроллер базовой станции (</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><B>BSC</B></I></FONT></FONT><FONT
+                            COLOR="#000000"><FONT SIZE=4><SPAN STYLE="font-weight: normal">
+— </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><B>Base
+                        Station</B></I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">
+Controller) </SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="text-decoration: none"><B>[1]</B></SPAN></FONT></FONT></FONT><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">.</SPAN></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">
+Они взаимодействуют через стандартизированный
+интерфейс A</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">bis</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT
+                            SIZE=4><SPAN STYLE="font-weight: normal">
+(</SPAN></FONT></FONT><FONT COLOR="#0000ff"><A
+                            HREF="https://www.intuit.ru/studies/courses/551/407/lecture/9332?page=2#image.1.1"><FONT
+                            COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="text-decoration: none"><B>рис.1.1</B></SPAN></FONT></FONT></A></FONT><FONT
+                            COLOR="#000000"><FONT SIZE=4><SPAN STYLE="font-weight: normal">).</SPAN></FONT></FONT></H4>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>На базовой
+                            приемопередающей станции размещается
+                            приемопередатчик, который для одной
+                            определенной соты реализует протоколы
+                            радиолинии с передвижной станцией. В
+                            большом городе обычно размещено большое
+                            количество </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>BTS</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>.
+                            Поэтому основные требования к </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>BTS</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            — прочность, надежность, портативность
+                            и минимальная стоимость.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Контроллер
+                            базовой станции управляет радиоресурсами
+                            для одного или более </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>BTS</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>:
+                            выбором и установлением соединения по
+                            радиоканалу, скачком частоты и хэндовером
+                            (переключением). </FONT></FONT></FONT>
+                    </P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>BSC</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            подключается между базовой приемопередающей
+                            станцией (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>BTS</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>)
+                            и центром коммутации мобильной связи
+                            (MSC).</FONT></FONT></FONT></P>
+                    <H4 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                        STYLE="text-indent: 0.39in; margin-top: 0in; margin-bottom: 0in; background: #ffffff">
+                        <FONT COLOR="#000000"><FONT SIZE=4>Коммутационная
+                            подсистема сети. </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">Центральный
+компонент подсистемы сети </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="font-weight: normal">—
+центр коммутации мобильной связи</SPAN></I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">
+(MSC) </SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none"><B>[1]</B></SPAN></FONT></FONT></FONT><FONT
+                            SIZE=4><SPAN STYLE="font-weight: normal">.</SPAN></FONT><FONT COLOR="#000000"><FONT
+                            SIZE=4><SPAN STYLE="font-weight: normal">
+Он работает как обычный узел коммутации
+общедоступной телефонной сети (</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><B>PSTN
+                    </B></I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="font-weight: normal">—
+Public Switched&nbsp;</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><B>Telephone
+                        Network</B></I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">)
+или цифровой сети интегрального
+обслуживания (ISDN — Integrated Service&nbsp;</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><B>Digital
+                        Network</B></I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">).
+Дополнительно обеспечивает все
+функциональные возможности мобильного
+абонента, такие как регистрация,
+аутентификация, обновление местоположения,
+передача соединения (хэндовер) и
+маршрутизация вызова при передвижении
+абонента. Эти функции обеспечиваются
+совместно несколькими функциональными
+объектами, которые вместе формируют
+подсистему сети. MSC обеспечивает
+подключение к фиксированным сетям
+(таким как общедоступная телефонная
+сеть </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><B>PSTN</B></I></FONT></FONT><FONT COLOR="#000000"><FONT
+                            SIZE=4><SPAN STYLE="font-weight: normal">
+или цифровая сеть интегрального
+обслуживания ISDN). Передача сигналов
+между функциональными объектами в
+подсистеме сети использует ОКС № 7 (</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT
+                            SIZE=4><I><B>SS7</B></I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN
+                            STYLE="font-weight: normal">)
+— отдельный канал сигнализации, такой
+же, как применяется для обмена в ISDN и в
+сетях общего пользования.</SPAN></FONT></FONT></H4>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Центр коммутации
+                            подвижной связи обслуживает группу сот
+                            и обеспечивает все виды соединений, в
+                            которых нуждается в процессе работы
+                            подвижная станция. MSC аналогичен ISDN
+                            коммутационной станции и реализует
+                            интерфейс между фиксированными сетями
+                            (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>PSTN</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>,
+                        </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>PDN</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>,
+                            ISDN и т. д.) и сетью подвижной связи. Он
+                            обеспечивает маршрутизацию вызовов и
+                            функции управления вызовами. Кроме
+                            выполнения функций обычной ISDN
+                            коммутационной станции на MSC возлагаются
+                            функции коммутации радиоканалов. К ним
+                            относятся &quot;эстафетная передача&quot;,
+                            в процессе которой достигается
+                            непрерывность связи при перемещении
+                            подвижной станции из соты в соту, и
+                            переключение рабочих каналов в соте
+                            при появлении помех или неисправностях.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Каждый MSC
+                            обеспечивает обслуживание подвижных
+                            абонентов, расположенных в пределах
+                            определенной географической зоны
+                            (например, Ташкент и область). MSC управляет
+                            процедурами установления вызова и
+                            маршрутизации. Для телефонной сети
+                            общего пользования (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>PSTN</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>)
+                            MSC обеспечивает функции сигнализации
+                            по протоколу ОКС №7, передачи вызова
+                            или поддержки других видов интерфейсов
+                            в соответствии с требованиями конкретного
+                            проекта.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>MSC формирует
+                            данные, необходимые для выписки счетов
+                            за предоставленные сетью услуги связи,
+                            накапливает данные по состоявшимся
+                            разговорам и передает их в центр расчетов
+                            (биллинг-центр). MSC составляет также
+                            статистические данные, необходимые для
+                            контроля работы и оптимизации сети. Он
+                            же поддерживает&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>процедуры
+                            безопасности</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                            применяемые для управления доступами
+                            к радиоканалам.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>MSC не только
+                            участвует в управлении вызовами, но
+                            также управляет процедурами регистрации
+                            местоположения и передачи управления,
+                            кроме передачи управления в подсистеме
+                            базовых станций (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>BSS</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>).
+                            Регистрация местоположения подвижных
+                            станций необходима для обеспечения
+                            доставки вызова перемещающимся подвижным
+                            абонентам от абонентов телефонной сети
+                            общего пользования или других подвижных
+                            абонентов. Процедура передачи вызова
+                            позволяет сохранять соединения и
+                            обеспечивать ведение разговора, когда
+                            подвижная станция перемещается из одной
+                            зоны обслуживания в другую. Передача
+                            вызовов в сотах, управляемых одним
+                            контроллером базовых станций (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>BSC</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>),
+                            осуществляется этим </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>BSC</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+                            Когда передача вызовов происходит между
+                            двумя сетями, управляемыми разными </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>BSC</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                            то первичное управление осуществляется
+                            в MSC. В стандарте GSM также предусмотрены
+                            процедуры передачи вызова между сетями
+                            (контроллерами), относящимися к разным
+                            MSC. Центр коммутации осуществляет
+                            постоянное слежение за подвижными
+                            станциями, используя домашний регистр
+                            местоположения (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>)
+                            и визитный регистр местоположения
+                            (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>).</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Домашний
+                            регистр местоположения</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>HLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            —Главный Location Register). В </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            хранится та часть информации о
+                            местоположении какой-либо подвижной
+                            станции, которая позволяет центру
+                            коммутации доставить вызов определенной
+                            мобильной станции. Практически </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            представляет собой справочную базу
+                            данных о постоянно зарегистрированных
+                            в сети абонентах. В ней содержатся
+                            опознавательные номера и адреса, а также
+                            параметры подлинности абонентов, состав
+                            услуг связи, специальная информация о
+                            маршрутизации. Ведется регистрация
+                            данных об изменении местоположения и
+                            роуминге (&quot;блуждании&quot;) абонента,
+                            включая данные о временном идентификационном
+                            номере подвижного абонента (TMSI —
+                            Temporary Mobile Subscriber Identity) и соответствующем
+                            визитном регистре местоположения (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>).
+                            Регистр </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>HLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            содержит международный идентификационный
+                            номер подвижного абонента (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>IMSI</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            — International Mobile Subscriber Identity), состав услуг
+                            связи, специальную информацию о
+                            маршрутизации. Он используется для
+                            опознавания подвижной станции в центре
+                            аутентификации (AUC — </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Authentication
+                            Center</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>).</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Домашний
+                            регистр местоположения (</FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>)
+                            вместе с MSC обеспечивает маршрутизацию
+                            вызова и изменения местоположения
+                            (роуминг) мобильной станции и содержит
+                            всю административную информацию каждого
+                            абонента, зарегистрированного в
+                            соответствующей сети GSM, наряду с текущим
+                            местоположением мобильных станций.
+                            Местоположение мобильных станций
+                            находится обычно в форме адреса данной
+                            мобильной станции в </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+                            Фактическая процедура маршрутизации
+                            будет описана позже. Логически существует
+                            только один </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>HLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            в сети GSM, хотя он может быть реализован
+                            как распределенная база данных. К данным,
+                            содержащимся в </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                            имеют дистанционный доступ все MSC и </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR
+                        </I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>сети, и,
+                            если в сети имеются несколько </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                            в базе данных содержится только одна
+                            запись об абоненте, поэтому каждый </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>HLR
+                        </I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>представляет
+                            собой определенную часть общей </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>базы
+                            данных сети</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            об абонентах. Доступ к базе данных об
+                            абонентах осуществляется по номеру
+                        </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>IMSI</I></FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4>
+                            (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>IMSI</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            — International Mobile Station Identity) или по MSISDN-номеру
+                            подвижной станции в сети ISDN (MSISDN — Mobile
+                            Station ISDN Number). К базе данных могут получить
+                            доступ MSC или </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                            относящиеся к другим сетям, в рамках
+                            обеспечения межсетевого роуминга
+                            абонентов.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Визитный
+                            регистр местоположения</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            — Visit Location Register). Второе основное
+                            устройство, обеспечивающее контроль
+                            над передвижением подвижной станции
+                            из зоны в зону, — визитный регистр
+                            местоположения </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR.</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            С его помощью достигается функционирование
+                            подвижной станции за пределами зоны,
+                            контролируемой </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+                            Когда в процессе перемещения подвижная
+                            станция переходит из зоны действия
+                            одного контроллера базовой станции
+                        </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>BSC</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>,
+                            объединяющего группу базовых станций,
+                            в зону действия другого </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>BSC</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                            она регистрируется новым </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>BSC</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>,
+                            и в </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            заносится информация о номере области
+                            связи, которая обеспечит доставку
+                            вызовов подвижной станции. Для сохранности
+                            данных, находящихся в </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            и </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>,
+                            в случае сбоев предусмотрена защита
+                            устройств памяти этих регистров.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>VLR </I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>включает
+                            в себя такие же данные, как и </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                            однако эти данные содержатся в </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            только до тех пор, пока абонент находится
+                            в зоне, контролируемой </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR.</I></FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>В сети подвижной
+                            связи GSM соты группируются в географические
+                            зоны (LA — Location Area), которым присваивается
+                            свой идентификационный номер (</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>LAC
+                        </I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>— Location
+                        </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Area Code</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>).
+                            Каждый </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR
+                        </I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>содержит
+                            данные об абонентах в нескольких LA.
+                            Когда подвижный абонент перемещается
+                            из одной LA в другую, данные о его
+                            местоположении автоматически обновляются
+                            в </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR.</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            Если старая и новая LA находятся под
+                            управлением различных </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+                            то данные на старом </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR
+                        </I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>стираются
+                            после их копирования в новый </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+                            Текущий адрес </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            абонента, содержащийся в </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>HLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>,
+                            также обновляется.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>VLR </I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>обеспечивает
+                            также присвоение номера для услуг
+                            роуминга мобильной станции (MSRN — Mobile
+                            Station </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Roaming</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            Number). Когда подвижная станция принимает
+                            входящий вызов, </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            выбирает его MSRN и передает его на MSC,
+                            который осуществляет маршрутизацию
+                            этого вызова к базовым станциям,
+                            находящимся рядом с подвижным абонентом.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Во время
+                            движения подвижная станция может
+                            покинуть зону, обслуживаемую одним
+                            MSC/VLR, и переместиться в зону, которую
+                            обслуживает другой MSC/VLR. В этом случае
+                            MSC/VLR участвует в передаче управления
+                            от одного MSC/VLR к другому. Он также
+                            присваивает новый временный мобильный
+                            опознавательный код станции TMSI (Temporary
+                            Mobile Subscriber Identity) и передает его в </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>HLR</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+                            Новый MSC/VLR инициирует процедуру
+                            установления подлинности абонента и
+                            его оборудования. Кроме случая, когда
+                            подвижный абонент меняет зону
+                            местоположения, временный номер может
+                            периодически изменяться по решению
+                            оператора с целью защиты от злонамеренного
+                            перехвата номеров участников разговора.
+                            В этом случае процедура изменения идет
+                            также с использованием </FONT></FONT><FONT COLOR="#000000"><FONT
+                                SIZE=4><I>VLR,</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+                            для доступа к </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            могут использоваться идентификационные
+                            номера&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>IMSI</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>,
+                            TMSI и MSRN.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>В общем VLR
+                            можно считать локальной базой данных
+                            в данной зоне, которая содержит информацию
+                            о подвижном абоненте.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Применение
+                        </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>VLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>
+                            позволяет сократить число запросов&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>HLR</I></FONT></FONT><FONT
+                                COLOR="#000000"><FONT SIZE=4>,
+                            и это снижает сетевой трафик и уменьшает
+                            время обслуживания.</FONT></FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=LEFT
+                       STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=4><B>Внутренние интерфейсы GSM.</B></FONT></P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Интерфейс
+                            между MSC и BSS (А – интерфейс) обеспечивает
+                            передачу сообщений для управления BSS,
+                            передачи вызова, управления передвижением.
+                            А – интерфейс объединяет каналы связи
+                            и линии сигнализации. Последние
+                            используют протокол SS N7 МККТТ. Полная
+                            спецификация А – интерфейса соответствует
+                            требованиям серии 08 Рекомендаций
+                            ETSI/GSM. </FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Интерфейс
+                            между MSC и HLR совмещен с VLR (В – интерфейс).
+                            Когда MSC необходимо определить
+                            местоположение подвижной станции, он
+                            обращается к </FONT><FONT SIZE=4><I>VLR.</I></FONT><FONT SIZE=4>
+                            Если подвижная станция инициирует
+                            процедуру место определения с MSC, он
+                            информирует свой </FONT><FONT SIZE=4><I>VLR, </I></FONT><FONT SIZE=4>который
+                            заносит всю изменяющуюся информацию
+                            в свои регистры. Эта процедура происходит
+                            всегда, когда MS переходит из одной
+                            области место определения в другую. В
+                            случае, если абонент запрашивает
+                            специальные дополнительные услуги или
+                            изменяет некоторые свои данные, MSC также
+                            информирует </FONT><FONT SIZE=4><I>VLR</I></FONT><FONT SIZE=4>,
+                            который регистрирует изменения и при
+                            необходимости сообщает о них </FONT><FONT SIZE=4><I>HLR.</I></FONT></FONT></P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Интерфейс
+                            между MSC и </FONT><FONT SIZE=4><I>HLR</I></FONT><FONT SIZE=4>
+                            (С – интерфейс) используется для
+                            обеспечения взаимодействия между MSC и
+                            HLR. MSC может послать указание (сообщение)
+                        </FONT><FONT SIZE=4><I>HLR</I></FONT><FONT SIZE=4> в конце
+                            сеанса связи для того, чтобы абонент
+                            мог оплатить разговор. Когда сеть
+                            фиксированной телефонной связи не
+                            способна исполнить процедуру установления
+                            вызова подвижного абонента, MSC может
+                            запросить </FONT><FONT SIZE=4><I>HLR</I></FONT><FONT SIZE=4>
+                            с целью определения местоположения
+                            абонента для того, чтобы послать вызов
+                            MS. </FONT></FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Интерфейс
+                            между </FONT><FONT SIZE=4><I>HLR </I></FONT><FONT SIZE=4>и </FONT><FONT
+                                SIZE=4><I>VLR</I></FONT><FONT SIZE=4>
+                            (D – интерфейс) используется для
+                            расширения обмена данными о положении
+                            подвижной станции, управления процессом
+                            связи. Основные услуги, предоставляемые
+                            подвижному абоненту, заключаются в
+                            возможности передавать или принимать
+                            сообщения независимо от местоположения.
+                            Для этого </FONT><FONT SIZE=4><I>HLR </I></FONT><FONT SIZE=4>должен
+                            пополнять свои данные. </FONT><FONT SIZE=4><I>VLR
+                        </I></FONT><FONT SIZE=4>сообщает </FONT><FONT SIZE=4><I>HLR</I></FONT><FONT SIZE=4>
+                            о положении MS, управляя ею и переприсваивая
+                            ей номера в процессе блуждания, посылает
+                            все необходимые данные для обеспечения
+                            обслуживания подвижной станции. </FONT></FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Интерфейс
+                            между MSC (Е – интерфейс) обеспечивает
+                            взаимодействие между разными MSC при
+                            осуществлении процедуры HANDOVER –&quot;передачи&quot;
+                            абонента из зоны в зону при его движении
+                            в процессе сеанса связи без ее перерыва.
+                        </FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Интерфейс
+                            между BSC и BTS (A - </FONT><FONT SIZE=4><SPAN LANG="en-US">bis</SPAN></FONT><FONT SIZE=4>
+                            интерфейс) служит для связи BSC с BTS и
+                            определен Рекомендациями ETSI/GSM для
+                            процессов установления соединений и
+                            управления оборудованием, передача
+                            осуществляется цифровыми потоками со
+                            скоростью 2,048 Мбит/с. Возможно использование
+                            физического интерфейса 64 кбит/с. </FONT></FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Интерфейс
+                            между BSC и ОМС (О – интерфейс) предназначен
+                            для связи BSC с ОМС, используется в сетях
+                            с пакетной коммутацией МККТТ Х.25. </FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Внутренний
+                            BSC-интерфейс контроллера базовой станции
+                            обеспечивает связь между различным
+                            оборудованием BSC и оборудованием
+                            транскодирования (ТСЕ); использует
+                            стандарт ИКМ –передачи 2,048 Мбит/с и
+                            позволяет организовать из четырех
+                            каналов со скоростью 16 кбит/с или один
+                            канал на скорости 64 кбит/с. </FONT></FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Интерфейс
+                            между MS и BTS (Um - радиоинтерфейс) определен
+                            в сериях 04 и 05 Рекомендаций ETSI/GSM. </FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Сетевой
+                            интерфейс между ОМС и сетью, так
+                            называемый управляющий интерфейс между
+                            ОМС и элементами сети, определен ETSI/GSM
+                            Рекомендациями 12.01 и является аналогом
+                            интерфейса Q.3, который определен в
+                            многоуровневой модели открытых сетей
+                            ISO OSI. Соединение сети с ОМС могут
+                            обеспечиваться системой сигнализации
+                            МККТТ SS N7 или сетевым протоколом Х.25.
+                            Сеть Х.25 может соединяться с объединенными
+                            сетями или с PSDN в открытом или замкнутом
+                            режимах. </FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>GSM
+                            - протокол управления сетью и обслуживанием
+                            также должен удовлетворять требованиям
+                            Q.3 интерфейса, который определен в
+                            ETSI/GSM Рекомендациях 12.01. </FONT>
+                        </P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=LEFT
+                       STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=4><I>Интерфейсы между сетью GSM и
+                            внешним оборудованием. </I></FONT>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Интерфейс
+                            между MSC и сервис – центром (SC) необходим
+                            для реализации службы коротких сообщений.
+                            Он определен в ETSI/GSM Рекомендациях
+                            03.40. </FONT>
+                        </P>
+                    </UL>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Интерфейс
+                            к другим ОМС. Каждый центр управления
+                            и обслуживания сети должен соединяться
+                            с другими ОМС, управляющими сетями в
+                            других регионах или другими сетями.
+                            Эти соединения обеспечиваются Х –
+                            интерфейсами в соответствии с </FONT>
+                        </P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Рекомендациями
+                            МККТТ М.3О. Для взаимодействия ОМС с
+                            сетями высших уровней используется
+                            О.3 – интерфейс. </FONT>
+                        </P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=LEFT
+                       STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=4><B>Интерфейсы с внешними сетями</B></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=LEFT
+                       STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=4><I>Соединение с PSTN</I></FONT></P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Соединение
+                            с телефонной сетью общего пользования
+                            осуществляется MSC по линии связи 2 Мбит/с
+                            в соответствии с системой сигнализации
+                            SS N 7. Электрические характеристики 2
+                            Мбит/с интерфейса соответствуют
+                            Рекомендациям МККТТ G.732. </FONT>
+                        </P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=4><I>Соединение с ISDN</I></FONT></P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>Для
+                            соединения с создаваемыми сетями ISDN
+                            предусматриваются четыре линии связи
+                            2 Мбит/с, поддерживаемые системой
+                            сигнализации SS N 7 и отвечающие
+                            Рекомендациям Голубой книги МККТТ
+                            Q.701-Q.710, Q.711-Q.714, Q.716, Q.781, 0.782, 0.791, 0.795,
+                            0.761-0.764, 0.766. </FONT>
+                        </P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY
+                       STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=4><I>Соединение с существующей
+                            сетью NMT-450</I></FONT></P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Центр
+                            коммутации подвижной связи соединяется
+                            с сетью NMT-450 через четыре стандартные
+                            линии связи 2 Мбит/с и системы сигнализации
+                            SS N7. При этом должны обеспечиваться
+                            требования Рекомендаций МККТТ по
+                            подсистеме пользователей телефонной
+                            сетью (</FONT><FONT SIZE=4><SPAN LANG="en-US">TUP</SPAN></FONT><FONT SIZE=4>
+                            – </FONT><FONT SIZE=4><SPAN LANG="en-US">Telephone</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">User</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Part</SPAN></FONT><FONT SIZE=4>)
+                            и подсистеме передачи сообщений (МТР
+                            – </FONT><FONT SIZE=4><SPAN LANG="en-US">Message</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Transfer</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Part</SPAN></FONT><FONT SIZE=4>)
+                            Желтой книги. Электрические характеристики
+                            линии 2 Мбит/с соответствуют Рекомендациям
+                            МККТТ G.732.</FONT></FONT></P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+
+                </div>
+                <div class="clear"></div>
+        </article>
+    </div>
+</div>
+
+
+<!--Load JavaScript-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+<script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+<script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+<script type='text/javascript' src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
+<script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+<script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/main.js'></script>
+</body>
+</html>

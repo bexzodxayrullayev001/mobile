@@ -1,0 +1,875 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Процессы обработки речи</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by Colorlib" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="Colorlib" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
+        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='style.css' />
+
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+
+    <body class="single-post">
+
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="images/ajax-document-loader.gif" alt="Loading...">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Left Sidebar -->
+        <div id="sidebar" class="sidebar">
+            <div class="menu-left-part">
+                <div class="search-holder">
+                    <label>
+                        <input type="search" class="search-field" placeholder="Type here to search..." value="" name="s"
+                               title="Search for:">
+                    </label>
+                </div>
+                <div class="site-info-holder">
+                    <h1 class="site-title">Учебник по курсу</h1>
+                    <p class="site-description">
+                        «GSM and mobility management»
+                        (GSM и управление мобильностью)
+                    </p>
+                </div>
+                <nav id="header-main-menu">
+                    <ul class="main-menu sm sm-clean">
+                        <li><a href="index.html" >Главный</a></li>
+                        <li><a href="part_4.1.html" >4.1. Процессы обработки речи</a></li>
+                        <li><a href="part_4.2.html">4.2. Модуляция</a></li>
+                        <li><a href="part_4.3.html" class="current">4.3. Проблемы, возникающие при передаче радиосигналов
+                            и их решения
+                        </a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <div class="footer-info">
+                        ТАШКЕНТСКИЙ УНИВЕРСИТЕТ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ ИМЕНИ МУХАММАДА АЛ-ХОРЕЗМИЙ <br> Факультет «Радио и
+                        мобильной связи» <a href="tuit.uz">Кафедра «Технологии мобильной связи»</a> Ташкент 2019 <i
+                            class="fa fa-book"></i>
+                    </div>
+                </footer>
+            </div>
+            <div class="menu-right-part">
+                <div class="logo-holder">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Suppablog WP">
+                    </a>
+                </div>
+
+                <div class="toggle-holder">
+                    <div id="toggle">
+                        <div class="menu-line"></div>
+                    </div>
+                </div>
+                <div class="social-holder">
+                    <div class="social-list">
+                        <a href="part_1.html"><i class="fa fa-signal" title="Глава 1. Сотовая связь стандарта GSM"></i></a>
+                        <a href="part_2.html"><i class="fa fa-mobile-phone" title="Глава 2. Управление мобильностью"></i></a>
+                        <a href="part_3.html"><i class="fa fa-mixcloud"
+                                                 title="Глава 3. Аспекты безопасности, протоколы сети, частотный план и структура кадров в стандарте GSM"></i></a>
+                        <a href="part_4.html"><i class="fa fa-barcode"
+                                                 title="Глава 4. Обработка речи в стандарте GSM и проблемы,  возникающие при передачи радиосигналов"></i></a>
+                        <a href="part_5.html"><i class="fa fa-feed"
+                                                 title="Глава 5. Управление сетями связи в стандарте GSM"></i></a>
+                        <a href="part_6.html"><i class="fa fa-tablet" title="Глава 6. Мобильное приложение в стандартеGSM"></i></a>
+                    </div>
+                </div>
+                <div class="fixed scroll-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+        <!-- Single Content -->
+        <div id="content" class="site-content center-relative">
+            <div class="single-post-wrapper content-1070 center-relative">
+
+                <article class="center-relative">
+                    <h1 class="entry-title">
+                      Глава 4.3. Проблемы,
+ возникающие при передачи радиосигналов
+
+                    </h1>
+
+                    <div class="entry-content">
+                         <div class="content-wrap content-660 center-relative"> 
+
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Существует много проблем,
+возникающих при передачи радиосигналов.
+Рассмотрим некоторые наиболее известные
+их них [1,6,16,19].</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Потери на пути
+распространения радиосигналов (Path loss)
+- </B></FONT><FONT SIZE=4>это потери, возникающие
+тогда, когда принимаемый сигнал становится
+всё слабее и слабее из-за увеличения
+расстояния между MS и BТS. Проблема </FONT><FONT SIZE=4><SPAN LANG="en-US">PL</SPAN></FONT><FONT SIZE=4>
+редко ведёт к разрыву соединения
+(</FONT><FONT SIZE=4><SPAN LANG="en-US">droppedcalls</SPAN></FONT><FONT SIZE=4>),
+потому что как только проблема становится
+экстремальной, соединение переключается
+на другую BТS и </FONT><FONT SIZE=4><SPAN LANG="en-US">PL</SPAN></FONT><FONT SIZE=4>
+становится, соответственно, меньше.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><I>Затенения (Shadowing)</I></FONT><FONT SIZE=4>случаются
+тогда, когда на пути распространения
+радиосигнала между  MS и BТS возникают
+физические препятствия, например, холмы,
+здания, деревья и т.д. Препятствия создают
+эффект затенения, который уменьшает
+уровень сигнала (</FONT><FONT SIZE=4><SPAN LANG="en-US">signalstrength</SPAN></FONT><FONT SIZE=4>).
+Уровень сигнала в процессе движения MS
+флуктуирует  в зависимости от возникающих
+препятствий на пути между MS и BТS.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Действующие на сигнал
+</FONT><FONT SIZE=4><I>замирания</I></FONT><FONT SIZE=4>
+изменяют уровень сигнала. Снижение
+уровня сигнала называется глубиной
+замирания (</FONT><FONT SIZE=4><SPAN LANG="en-US">fadingdips</SPAN></FONT><FONT SIZE=4>).
+На рис.4.12 показаны препятствия, возникающие
+на пути распространения сигнала между
+MS и BТS.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<IMG SRC="images/src/html_78c44d98.png" NAME="Рисунок 94" ALIGN=BOTTOM WIDTH=421 HEIGHT=137 BORDER=0></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.12. Препятствия на
+пути передачи радиосигнала</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Многолучёвые замирания
+(Multipath fading)</B></FONT><FONT SIZE=4> возникают тогда,
+когда существует более чем один путь
+распространения радиоволны между MS и
+BТS и, в связи с этим, к приёмнику приходит
+более чем один сигнал. Последнее связано
+с многократным отражением радиосигнала
+от  таких препятствий, как горы, здания,
+располагающиеся либо близко, либо далеко
+от приёмников.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Релеевские замирания
+сигналов (Rayleigh fading)</B></FONT><FONT SIZE=4> возникают
+тогда, когда сигнал достигает приёмника
+по нескольким путям от базовой станции
+(рис.4.13). </FONT></FONT>
+</P>
+<P LANG="en-US" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_37cd1d4d.png" NAME="Рисунок 95" ALIGN=BOTTOM WIDTH=339 HEIGHT=195 BORDER=0></P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; line-height: 100%"><BR>
+</P>
+<P LANG="ru-RU" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.13.Причина Релеевских
+замираний</FONT></FONT></P>
+<P LANG="ru-RU" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<H3 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.39in; margin-top: 0in">
+<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">В
+этом случае сигнал не принимается по
+линии прямой видимости прямо от передающей
+антенны, а приходит с разных направлений,
+отражаясь от зданий. Релеевские замирания
+сильно выражены тогда, когда препятствия
+располагаются близко к приёмной антенне.
+Результирующий принятый  сигнал
+представляет собой сумму сигналов,
+пришедших с разной амплитудой и фазой.
+Глубина замираний и их периодичность
+зависят от скорости движения MS и рабочей
+частоты. Расстояние между замираниями
+приблизительно составляет половину
+длины волны колебания. Для систем </SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="font-weight: normal">GSM</SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">
+900 расстояние между двумя замираниями
+составляет 17см.</SPAN></FONT></FONT></FONT></H3>
+<H3 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.39in; margin-top: 0in">
+<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4>Временная
+дисперсия (Time Dispersion)</FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">является
+дополнительной проблемой, связанной с
+многолучёвым характером распространения
+радиоволн между MS и BТS. </SPAN></FONT></FONT></FONT>
+</H3>
+<P LANG="ru-RU" CLASS="western" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+Однако в данном случае в сравнении с
+Релеевскими замираниями, отражённый
+сигнал приходит к приёмной антенне,
+отражаясь от достаточно удалённых
+объектов, таких как горы, холмы.</P>
+<P LANG="ru-RU" CLASS="western" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+Временная интерференция вызывает
+межсимвольную  интерференцию (<SPAN LANG="en-US">Inter</SPAN>-<SPAN LANG="en-US">Symbol</SPAN>
+<SPAN LANG="en-US">Interference</SPAN> - <SPAN LANG="en-US">ISI</SPAN>),
+где последовательные символы (биты)
+интерферируют друг  с другом, что
+затрудняет приёмнику правильно определять
+символы. 
+</P>
+<P LANG="ru-RU" CLASS="western" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+Примером может служить рис.4.14, где
+представлена передача последовательности
+1, 0 от <SPAN LANG="en-US">BTS</SPAN>.</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_a6d1f89e.png" NAME="Рисунок 96" ALIGN=BOTTOM WIDTH=497 HEIGHT=185 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+Рис.4.14. Временная дисперсия</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Если отраженный сигнал приходит
+после прохождения одного бита прямого
+сигнала, то приёмник обнаруживает «1»
+от отраженной волны и в то же самое время
+«0» от прямой радиоволны. Поэтому символ
+«1» интерферирует с символом «0» и MS не
+знает, какой из этих символов является
+правильным.</FONT></P>
+<H3 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.39in; margin-top: 0in">
+<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4>Временное
+наложение (Time Alignment). </FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">Каждая
+MS во время обслуживания вызова занимает
+один </SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="font-weight: normal">TS</SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">
+внутри кадра </SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="font-weight: normal">TDMA</SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">.
+Другими словами, мобильная станция
+занимает определённый временной
+интервал, в течение которого MS передаёт
+информацию на BТS. </SPAN></FONT></FONT></FONT>
+</H3>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Проблема временного
+наложения проявляется тогда, когда
+часть информации, переданная MS, не
+приходит в занимаемом </FONT><FONT SIZE=4><SPAN LANG="en-US">TS</SPAN></FONT><FONT SIZE=4>.
+Вместо этого не пришедшая часть информации
+придёт в следующем </FONT><FONT SIZE=4><SPAN LANG="en-US">TS</SPAN></FONT><FONT SIZE=4>,
+следовательно, может интерферировать
+с информацией, передаваемой  другой MS,
+использующей другой </FONT><FONT SIZE=4><SPAN LANG="en-US">TS</SPAN></FONT><FONT SIZE=4>
+(рис.4.15). </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Временное наложение возникает
+за счёт большого расстояния между MS и
+BТS. Сигнал же не может распространяться
+на большие расстояния внутри заданного
+значения временной задержки.</FONT></P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_85e6a5a.png" NAME="Рисунок 97" ALIGN=BOTTOM WIDTH=399 HEIGHT=206 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.15. Временная задержка</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Комбинированные потери
+сигнала (Combined Signal Loss). </B></FONT><FONT SIZE=4>Все
+проблемы, возникающие при распространении
+сигнала, в частности те, которые были
+описаны выше, возникают и существуют
+независимо друг от друга. Однако в
+процессе обслуживания некоторых вызовов
+эти проблемы могут возникать одновременно.
+Такое наложение сигналов можно представить
+зависимостью изменения сигнала на входе
+приёмника MS в процессе её движения.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>На рис. 4.16 представлена
+такая зависимость. На данном рисунке
+представлены суммарные потери в виде
+</FONT><FONT SIZE=4><SPAN LANG="en-US">PL</SPAN></FONT><FONT SIZE=4>,
+затенений, Релеевских замираний
+(комбинированные потери сигнала). Уровень
+сигнала как глобальное среднее значение
+уменьшается с расстоянием (</FONT><FONT SIZE=4><SPAN LANG="en-US">pathloss</SPAN></FONT><FONT SIZE=4>),
+что приводит к разрыву соединения.
+Вокруг глобального среднего существуют
+медленные вариации поля за счёт затенений
+и быстрые вариации за счёт Релеевских
+замираний.</FONT></FONT></P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_eb57c511.png" NAME="Рисунок 98" ALIGN=BOTTOM WIDTH=510 HEIGHT=282 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.16. Вариации сигнала
+с изменением расстояния</FONT></FONT></P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>В любой другой точке
+флуктуации сигнала будут выглядеть 
+так, как показано на рис.4.17.</FONT></FONT></P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_703af246.png" NAME="Рисунок 99" ALIGN=BOTTOM WIDTH=572 HEIGHT=216 BORDER=0></P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; line-height: 100%"><BR>
+</P>
+<P LANG="ru-RU" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.17Флуктуации сигнала
+на антенне приёмника</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Из рисунка видно, что
+чувствительность телефона не должна
+быть меньше минимального значения
+сигнала (на рис.4.17 это показано глубиной
+затухания). Например, если необходимо
+принять сигнал с мощностью </FONT><FONT SIZE=4>–100
+</FONT><FONT SIZE=4><SPAN LANG="en-US">dBm</SPAN></FONT><FONT SIZE=4>,
+то чувствительность телефона должна
+быть не меньше (-104 </FONT><FONT SIZE=4><SPAN LANG="en-US">dBm</SPAN></FONT><FONT SIZE=4>),
+а даже больше, в противном случае
+информация будет утеряна. Чтобы быть
+уверенным в том, что информация не будет
+потеряна, необходимо, чтобы глобальное
+среднее значение напряжённости поля
+было больше на такую величину dB, на какую
+в </FONT><FONT SIZE=4><SPAN LANG="en-US">dB</SPAN></FONT><FONT SIZE=4>
+отклоняется самое большее замирание.
+Такой запас на замирание представляет
+собой разницу между чувствительностью
+и средним значением напряжённости поля.</FONT></FONT></P>
+<H2 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.39in; margin-top: 0in; line-height: 100%">
+<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4>Решение
+проблем, возникающих при передаче
+сигнала. </FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">При
+цифровой передаче данных качество
+переданного сигнала выражается в
+терминах «сколько некорректных битов
+информации было принято». Названием
+термина, характеризующего качество
+принятой информации, является частота
+ошибок по битам (</SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="font-weight: normal">BER</SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">
+– </SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="font-weight: normal">BitErrorRatio</SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">).
+</SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="font-weight: normal">BER</SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">
+определяет процентное отношение
+количества неправильно принятых битов
+к общему количеству переданных битов
+информации.</SPAN></FONT></FONT></FONT></H2>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_71ce2a8c.png" NAME="Рисунок 100" ALIGN=BOTTOM WIDTH=439 HEIGHT=115 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Данное отношение должно
+быть как можно ниже. В общем случае,
+данное отношение невозможно свести к
+нулю, это связанно с тем, что путь
+распространения радиоволн постоянно
+меняется. Это особенно важно в течение
+передачи данных по сравнению с передачей
+речи, для которой  приемлемо более
+высокое количество </FONT><FONT SIZE=4><SPAN LANG="en-US">BER</SPAN></FONT><FONT SIZE=4>,
+чем для данных. </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Канальное же кодирование
+используется для обнаружения и коррекции
+ошибок в принимаемом потоке битов.
+Данное кодирование добавляет биты к
+сообщению, осуществляя избыточность
+сообщения, позволяя не только обнаруживать
+неправильные биты, но и исправлять.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Перемежение (Interleaving).
+</B></FONT><FONT SIZE=4>Чаще всего на практике
+битовые ошибки появляются последовательно
+друг за другом. Это связанно с тем, что
+долговременные глубокие замирания
+воздействуют сразу же на несколько
+последовательных битов информации.
+Канальное кодирование эффективно
+используется в случаях появления
+одиночных ошибок и последовательностях
+короткой длины. В связи с этим, применение
+только канального кодирования не
+применимо в условиях появления длинных
+последовательностей ошибок.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Поэтому для избежание
+ошибочного приема битов вводится процесс
+</FONT><FONT SIZE=4><SPAN LANG="en-US">Interleaving</SPAN></FONT><FONT SIZE=4><B>
+– </B></FONT><FONT SIZE=4>интерливинга или
+перемежения (подробно рассматривался
+ранее). Этот процесс позволяет разбить
+последовательные  биты сообщений так,
+чтобы эти биты не передавались 
+последовательно друг за другом. </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рассмотрим в качестве
+примера блок сообщения, который может
+состоять из четырёх битов (1234). Если
+четыре таких последовательных блока
+передаются и один теряется, причём
+интерливинг отсутствует, то количество
+ошибок </FONT><FONT SIZE=4><SPAN LANG="en-US">BER</SPAN></FONT><FONT SIZE=4>
+для всего сообщения составит 25%, а для
+потерянного сообщения 100%. И в этом случае
+восстановить его становится практически
+ невозможным.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Если используется
+интерливинг, как показано на рис.4.18, то
+бит каждого блока может быть передан
+не последовательным способом. Если при
+передаче информации теряется один блок,
+то общее количество ошибок также
+составляет 25%. Однако такая потеря
+информации приводит к потере информации
+в каждом блоке, причём количество </FONT><FONT SIZE=4><SPAN LANG="en-US">BER</SPAN></FONT><FONT SIZE=4>
+для каждого блока составляет 25%. Данная
+ситуация считается более приемлемой,
+чем ранее, так как вероятность определения
+и восстановления канальным кодером
+становится больше.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.5in; line-height: 100%">
+<IMG SRC="images/src/html_e55760a3.png" NAME="Рисунок 101" ALIGN=BOTTOM WIDTH=458 HEIGHT=175 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.18. Процесс интерливинга</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_aa036a3f.png" NAME="Рисунок 102" ALIGN=BOTTOM WIDTH=399 HEIGHT=37 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.19. Принятые блоки с
+учётом интерливинга</FONT></FONT></P>
+<H3 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.39in">
+<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4>Разнесённый
+приём (</FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN LANG="en-US">AntennaDiversity</SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4>).
+</FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">Использование
+разнесённого приёма позволяет получить
+больший уровень сигнала на выходе
+антенно-фидерного тракта посредством
+использования особенностей распространения
+радиоволн. Существует два типа разнесённого
+приёма:</SPAN></FONT></FONT></FONT></H3>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+• <FONT SIZE=3><FONT SIZE=4>пространственное
+разнесение;</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+• <FONT SIZE=3><FONT SIZE=4>поляризационное
+разнесение.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Пространственное
+разнесение. </B></FONT><FONT SIZE=4>Для того чтобы
+увеличить уровень принимаемого сигнала
+BТS прибегают к пространственному
+разнесению антенной системы. В данной
+конструкции используется 2 антенны
+вместо одной. Если при разнесении
+используется 2 антенны, то вероятность
+того, что в одно и тоже время на обе
+антенны придут две одинаковые волны,
+на которые повлияли глубокие замирания,
+очень мала. В диапазоне 900 МГц, используя
+пространственное разнесение, можно
+достичь усиления сигнала в 3 dB, при этом
+расстояние между антеннами должно быть
+5 – 6 метров (12 – 18 </FONT><FONT FACE="Symbol, serif"><FONT SIZE=4></FONT></FONT><FONT SIZE=4>)
+для горизонтального разнесения и 25*(12
+– 18*</FONT><FONT FACE="Symbol, serif"><FONT SIZE=4></FONT></FONT><FONT SIZE=4>)
+для вертикального разнесения. В диапазоне
+1800 Мгц, расстояние должно быть уменьшено
+из-за меньшего значения длины волны.  </FONT></FONT>
+</P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Используя данный метод и выбирая
+сигнал с большим уровнем можно в
+значительной степени уменьшить
+воздействие замираний сигнала.</FONT></P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Следует отметить, что
+пространственное разнесение даёт
+немного большее усиление сигнала (до
+5</FONT><FONT SIZE=4><SPAN LANG="en-US">dBm</SPAN></FONT><FONT SIZE=4>),
+чем при использовании поляризационного
+приёма, но, в свою очередь требует
+большего пространства для монтажа
+антенн.</FONT></FONT></P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>На рис.4.20 представлено
+влияние использования пространственного
+приёма.</FONT></FONT></P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_dfd85f21.png" NAME="Рисунок 103" ALIGN=BOTTOM WIDTH=477 HEIGHT=350 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%"><A NAME="OLE_LINK1"></A>
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.20. Пространственное
+разнесение антенн</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Поляризационное
+разнесение</B></FONT><FONT SIZE=4>. При использовании
+поляризационного приёма антенны
+разнесённого приёма заменяются одной
+антенной с двойной поляризацией. Данная
+антенна имеет нормальный корпус, но
+имеет две различные поляризационные
+антенные решетки.  Самые популярные
+антенны – это антенны с
+горизонтальной/вертикальной поляризацией
+и антенны, имеющие наклонную поляризацию
+в 45</FONT><SUP><FONT SIZE=4>о</FONT></SUP><FONT SIZE=4>. Две
+антенные решётки соединяются</FONT><FONT SIZE=4><B>
+в </B></FONT><FONT SIZE=4>одну соединительную
+схему, называемую </FONT><FONT SIZE=4><SPAN LANG="en-US">Rx</SPAN></FONT><FONT SIZE=4>
+в </FONT><FONT SIZE=4><SPAN LANG="en-US">BTS</SPAN></FONT><FONT SIZE=4>.
+Две антенные решетки могут также быть
+использованы как совмещённые </FONT><FONT SIZE=4><SPAN LANG="en-US">Tx</SPAN></FONT><FONT SIZE=4>/</FONT><FONT SIZE=4><SPAN LANG="en-US">Rx</SPAN></FONT><FONT SIZE=4>
+антенны. На практике считается, что
+коэффициент усиления с использованием
+двух типов разнесённого приёма одинаков,
+но в случае поляризационного приёма
+экономится размер монтажной площадки
+антенно-фидерной системы. </FONT></FONT>
+</P>
+<H4 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.39in; margin-top: 0in; margin-bottom: 0in">
+<FONT SIZE=4>Адаптивная коррекция
+(</FONT><FONT SIZE=4><SPAN LANG="en-US">AdaptiveEqualization</SPAN></FONT><FONT SIZE=4>)–
+</FONT><FONT SIZE=4><SPAN STYLE="font-weight: normal">метод,
+специально разработанный для решения
+проблем, связанных с временной дисперсией
+сигналов.Работа данного метода заключается
+в следующем</SPAN></FONT><FONT SIZE=4>:</FONT></H4>
+<OL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>За
+    основу данного метода берется набор
+    априорно известных битов информации,
+    называемый тестовой последовательностью
+    (</FONT><FONT SIZE=4><SPAN LANG="en-US">training</SPAN></FONT><FONT SIZE=4>
+    </FONT><FONT SIZE=4><SPAN LANG="en-US">sequence</SPAN></FONT><FONT SIZE=4>).
+    Данная последовательность известна
+    как BTS, так и </FONT><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>.
+    </FONT><FONT SIZE=4><SPAN LANG="en-US">BTS</SPAN></FONT><FONT SIZE=4>
+    дает команду </FONT><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>
+    включить одну из этих последовательностей
+    в передачу полезной информации по
+    направлению к </FONT><FONT SIZE=4><SPAN LANG="en-US">BTS</SPAN></FONT><FONT SIZE=4>.</FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>
+    включает в передаваемое сообщение по
+    направлению к </FONT><FONT SIZE=4><SPAN LANG="en-US">BTS</SPAN></FONT><FONT SIZE=4>
+    тестовую последовательность (на
+    рис.4.21, данная последовательность
+    показывается буквой </FONT><FONT SIZE=4><B>“</B></FONT><FONT SIZE=4><SPAN LANG="en-US">S</SPAN></FONT><FONT SIZE=4><B>”</B></FONT><FONT SIZE=4>).
+    Однако, при передаче сообщения через
+    радиоэфир, последнее может быть искажено
+    (потеря нескольких бит информации).</FONT></FONT></P>
+</OL>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_bb1331a9.png" NAME="Рисунок 58" ALIGN=BOTTOM WIDTH=601 HEIGHT=307 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.21. Адаптивная коррекция</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<OL START=3>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">BTS</SPAN></FONT><FONT SIZE=4>
+    принимает сообщение от </FONT><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>
+    и проверяет тестовую последовательность
+    внутри передаваемого сообщения. После
+    того, как сообщение принято, </FONT><FONT SIZE=4><SPAN LANG="en-US">BTS</SPAN></FONT><FONT SIZE=4>
+    сравнивает принятую тестовую
+    последовательность с тестовой 
+    последовательностью, которую должна
+    была использовать </FONT><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>
+    по указанию </FONT><FONT SIZE=4><SPAN LANG="en-US">BTS</SPAN></FONT><FONT SIZE=4>.
+    Если существует отличие междудвумя
+    тестовыми последовательностями, это
+    означает, что проблемы в радиоэфире
+    воздействовали не только на тестовые
+    последовательности, но так же и на
+    полезную информацию.</FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>После
+    установления различия в тестовых
+    последовательностях, </FONT><FONT SIZE=4><SPAN LANG="en-US">BTS</SPAN></FONT><FONT SIZE=4>
+    начинает процесс восстановления
+    потерянной полезной информации. Для
+    этого она использует апостериорную
+    информацию о повреждениях внутри
+    тестовой последовательности. Поскольку
+    </FONT><FONT SIZE=4><SPAN LANG="en-US">BTS</SPAN></FONT><FONT SIZE=4>
+    делает предположения о радиоэфире на
+    основе тестовых последовательностей,
+    то результат адаптивного восстановления
+    потерянной информации не может быть
+    100% -но удачным. </FONT></FONT>
+    </P>
+</OL>
+<P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Несмотря на это применение
+такого метода дает достаточно хорошие
+результаты восстановления сигнала. К
+примеру, в качестве адаптивного
+эквалайзера в системе </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+используется эквалайзер Витерби
+(</FONT><FONT SIZE=4><SPAN LANG="en-US">Viterbiequalizer</SPAN></FONT><FONT SIZE=4>).</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Перескоки по частоте
+(Frequency Hopping)</B></FONT><FONT SIZE=4><B>. </B></FONT><FONT SIZE=4>Как
+было указанно выше, Релеевские замирания
+частотно зависимы. Это означает, что
+глубина таких замираний различна в
+каждом из районов местности и на разных
+частотах. В связи с этим в системе </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+ предусмотрена опция </FONT><FONT SIZE=4><SPAN LANG="en-US">Frequency</SPAN></FONT><FONT SIZE=4>
+</FONT><FONT SIZE=4><SPAN LANG="en-US">Hopping</SPAN></FONT><FONT SIZE=4><B>
+- </B></FONT><FONT SIZE=4>перескоки по частоте для
+MS и BТS в процессе установления соединения.
+Одновременный перескок по частоте MS и
+BТS обуславливается точной взаимной
+синхронизацией. </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Согласно рекомендациям
+стандарта </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+существует 64 последовательности
+перескока по частоте. Одна из этих
+последовательностей циклическая или
+последовательная, а 63 остальных –
+псевдослучайные, которые могут быть
+сконфигурированы самим оператором.</FONT></FONT></P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>На рис.4.22, схематично
+представлен процесс перескока по
+частоте. </FONT></FONT>
+</P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_a00e3a1b.png" NAME="Рисунок 105" ALIGN=BOTTOM WIDTH=544 HEIGHT=333 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.22. Перескоки по
+частоте</FONT></FONT></P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>В течение кадра </FONT><FONT SIZE=4><SPAN LANG="en-US">NTDMA</SPAN></FONT><FONT SIZE=4>
+используется несущая С1, в то время как
+в течение кадра </FONT><FONT SIZE=4><SPAN LANG="en-US">N</SPAN></FONT><FONT SIZE=4>+1
+используется несущая </FONT><FONT SIZE=4><SPAN LANG="en-US">C</SPAN></FONT><FONT SIZE=4>2.
+Таким образом, на протяжении всего 
+установленного соединения используется
+один и тот же временной интервал, но
+изменяются частоты согласно определённой
+последовательности перескока по частоте.</FONT></FONT></P>
+<H3 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.39in; margin-top: 0in">
+<FONT COLOR="#000000"><FONT SIZE=4>Временная задержка
+(Timing Advance). </FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">Применение
+временной задержки связанно с тем, что
+иногда возникают проблемы с временным
+наложением. Данное опережение позволяет
+передавать свои кадры раньше, чем
+устанавливается соединение (рис.4.23). </SPAN></FONT></FONT></FONT>
+</H3>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_c9f787ce.png" NAME="Рисунок 106" ALIGN=BOTTOM WIDTH=565 HEIGHT=224 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+Рис.4.23. Временное опережение</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>В системе </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+временная задержка интерпретируется
+в битах. </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+Известно, что первый этап установления
+соединения от MS к BТS осуществляется по
+направлению «<SPAN LANG="en-US">Uplink</SPAN>»
+(направление от MS к BS). Данное соединение
+происходит в виде передачи пакета
+доступа (<SPAN LANG="en-US">AB</SPAN> - <SPAN LANG="en-US">accessburst</SPAN>)
+по каналу параллельного доступа (<SPAN LANG="en-US">RACH</SPAN>
+– <SPAN LANG="en-US">randomaccesschannel</SPAN>).</P>
+<P LANG="ru-RU" CLASS="western" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+Пакет доступа кроме первого этапа
+установления соединения используется
+при осуществлении хэндовера, при этом
+используется уже не канал <SPAN LANG="en-US">RACH</SPAN>,
+а канал управления с быстрым доступом
+(<SPAN LANG="en-US">FACCH</SPAN> –
+<SPAN LANG="en-US">FastAssociatedCommonControlChannel</SPAN>). 
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Основной характеристикой
+пакета доступа является то, что кроме
+последовательности синхронизации (49
+бит) и битов кодирования (39 бит) в нем
+передается информация о временной
+задержке распространения сигнала от
+MS к BТS. Информация о временной задержке
+предаётся в защитном интервале (</FONT><FONT SIZE=4><SPAN LANG="en-US">GB</SPAN></FONT><FONT SIZE=4>
+- </FONT><FONT SIZE=4><SPAN LANG="en-US">guardperiod</SPAN></FONT><FONT SIZE=4>),
+размер которого составляет 68.25 бит, а
+длительность -  252 мксек. Графическая
+интерпретация  временных кадров
+представлена на рис.4.24.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_5a436591.jpg" NAME="Рисунок 107" ALIGN=BOTTOM WIDTH=624 HEIGHT=174 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.24. Графическая
+интерпретация интервал доступа</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>На рис.4.24 ТВ (</FONT><FONT SIZE=4><SPAN LANG="en-US">tailbits</SPAN></FONT><FONT SIZE=4>)означает
+так называемые хвостовые биты, они
+предназначенные для выравнивания во
+временном кадре.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>При первом установлении соединения
+MS не знает, на каком расстоянии она
+находится от BТS, и следовательно, не
+знает о величине временной задержки.
+Пакет доступа, который мобильная станция
+посылает со значением временной задержки
+«0» по отношению к ее внутренней временной
+базе, является достаточно небольшим по
+своим размерам и умещается во временном
+интервале 252 мксек, включая двойную
+максимальную задержку распространения
+сигнала по радиоканалу.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Использование временной задержки
+даёт возможность определять расстояние
+между мобильным абонентом и базовой
+станцией. </FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Максимальный радиус соты
+в стандарте </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+составляет 35 км. Это расстояние и
+определяется максимальной задержкой
+на распространение сигнала (63 бит). </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Используя данные о
+значениях временной задержки, можно
+определить действующее расстояние
+между базовой станцией и подвижной
+станцией, которое может быть записано
+в виде произведения </FONT><FONT SIZE=4><SPAN LANG="en-US">TA</SPAN></FONT><FONT SIZE=4>
+и множителя расстояния, формула 4.1.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 2.17in; line-height: 100%">
+<IMG SRC="images/src/html_81183c2e.gif" NAME="Object12" ALIGN=ABSMIDDLE WIDTH=99 HEIGHT=41><FONT SIZE=3><FONT SIZE=4> ,           (4.1)</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>где </FONT><FONT SIZE=4><SPAN LANG="en-US">TA</SPAN></FONT><FONT SIZE=4>
+– временная задержка для обычного
+радиуса сот; </FONT><FONT SIZE=4><SPAN LANG="en-US"><I>D</I></SPAN></FONT><SUB><FONT SIZE=4><SPAN LANG="en-US"><I>RT</I></SPAN></FONT></SUB><FONT SIZE=4>
+– расстояние от мобильной станции до
+базовой станции, которое  определяется
+как</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 2.26in; line-height: 100%">
+<IMG SRC="images/src/html_bfd5231c.gif" NAME="Object13" ALIGN=ABSMIDDLE WIDTH=66 HEIGHT=21><FONT SIZE=3><FONT SIZE=4> ,           (4.2)
+</FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>где </FONT><FONT SIZE=4><SPAN LANG="en-US"><I>v</I></SPAN></FONT><FONT SIZE=4>
+– скорость света 
+<IMG SRC="images/src/html_bf04c4d0.gif" NAME="Object14" ALIGN=ABSMIDDLE WIDTH=98 HEIGHT=21>;
+</FONT><FONT SIZE=4><SPAN LANG="en-US"><I>t</I></SPAN></FONT><FONT SIZE=4>
+= 1 </FONT><FONT SIZE=4><I>бит </I></FONT><FONT SIZE=4>= 48/13
+</FONT><FONT SIZE=4><I>[мксек].</I></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            </div>
+        </div>
+
+
+
+        <!--Load JavaScript-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
+        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </body>
+</html>
+

@@ -1,0 +1,839 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Процессы обработки речи</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by Colorlib" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="Colorlib" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
+        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='style.css' />
+
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+
+    <body class="single-post">
+
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="images/ajax-document-loader.gif" alt="Loading...">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Left Sidebar -->
+        <div id="sidebar" class="sidebar">
+            <div class="menu-left-part">
+                <div class="search-holder">
+                    <label>
+                        <input type="search" class="search-field" placeholder="Type here to search..." value="" name="s"
+                               title="Search for:">
+                    </label>
+                </div>
+                <div class="site-info-holder">
+                    <h1 class="site-title">Учебник по курсу</h1>
+                    <p class="site-description">
+                        «GSM and mobility management»
+                        (GSM и управление мобильностью)
+                    </p>
+                </div>
+                <nav id="header-main-menu">
+                    <ul class="main-menu sm sm-clean">
+                        <li><a href="index.html" >Главный</a></li>
+                        <li><a href="part_4.1.html" class="current">4.1. Процессы обработки речи</a></li>
+                        <li><a href="part_4.2.html">4.2. Модуляция</a></li>
+                        <li><a href="part_4.3.html">4.3. Проблемы, возникающие при передаче радиосигналов
+                            и их решения
+                        </a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <div class="footer-info">
+                        ТАШКЕНТСКИЙ УНИВЕРСИТЕТ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ ИМЕНИ МУХАММАДА АЛ-ХОРЕЗМИЙ <br> Факультет «Радио и
+                        мобильной связи» <a href="tuit.uz">Кафедра «Технологии мобильной связи»</a> Ташкент 2019 <i
+                            class="fa fa-book"></i>
+                    </div>
+                </footer>
+            </div>
+            <div class="menu-right-part">
+                <div class="logo-holder">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Suppablog WP">
+                    </a>
+                </div>
+
+                <div class="toggle-holder">
+                    <div id="toggle">
+                        <div class="menu-line"></div>
+                    </div>
+                </div>
+                <div class="social-holder">
+                    <div class="social-list">
+                        <a href="part_1.html"><i class="fa fa-signal" title="Глава 1. Сотовая связь стандарта GSM"></i></a>
+                        <a href="part_2.html"><i class="fa fa-mobile-phone" title="Глава 2. Управление мобильностью"></i></a>
+                        <a href="part_3.html"><i class="fa fa-mixcloud"
+                                                 title="Глава 3. Аспекты безопасности, протоколы сети, частотный план и структура кадров в стандарте GSM"></i></a>
+                        <a href="part_4.html"><i class="fa fa-barcode"
+                                                 title="Глава 4. Обработка речи в стандарте GSM и проблемы,  возникающие при передачи радиосигналов"></i></a>
+                        <a href="part_5.html"><i class="fa fa-feed"
+                                                 title="Глава 5. Управление сетями связи в стандарте GSM"></i></a>
+                        <a href="part_6.html"><i class="fa fa-tablet" title="Глава 6. Мобильное приложение в стандартеGSM"></i></a>
+                    </div>
+                </div>
+                <div class="fixed scroll-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+        <!-- Single Content -->
+        <div id="content" class="site-content center-relative">
+            <div class="single-post-wrapper content-1070 center-relative">
+
+                <article class="center-relative">
+                    <h1 class="entry-title">
+                      Глава 4.1. Процессы обработки речи
+
+                    </h1>
+
+                    <div class="entry-content">
+                             <div class="content-wrap content-660 center-relative"> 
+
+                <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Процессы обработки речи
+в стандарте GSM направлены на обеспечение
+высокого качества передаваемых сообщений,
+реализацию дополнительных сервисных
+возможностей и повышение потребительских
+качеств абонентских терминалов [1,16].</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Обработка речи осуществляется
+в рамках принятой системы прерывистой
+передачи речи (DTX), которая обеспечивает
+включение передатчика только тогда,
+когда пользователь начинает разговор
+и отключает его в паузах и в конце
+разговора. DTX управляется детектором
+активности речи (VAD), который обеспечивает
+обнаружение и выделение интервалов
+передачи речи с шумом и шума без речи
+даже в тех случаях, когда уровень шума
+соизмерим с уровнем речи. В состав
+системы прерывистой передачи речи
+входит также устройство формирования
+комфортного шума, который включается
+и прослушивается в паузах речи, когда
+передатчик отключен. Экспериментально
+показано, что отключение фонового шума
+на выходе приемника в паузах при
+отключении передатчика раздражает
+абонента и снижает разборчивость речи,
+поэтому применение комфортного шума в
+паузах считается необходимым. DTX процесс
+в приемнике включает также интерполяцию
+фрагментов речи, потерянных из-за ошибок
+в канале.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Качество воспроизведения,
+как показывает практика, существенно
+зависит от скорости кодирования речи
+(рис.4.1).</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_f1ea55e7.png" NAME="Рисунок 90" ALIGN=BOTTOM WIDTH=579 HEIGHT=303 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.1 Зависимость качества
+речи от скорости кодирования</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Основным методом  уменьшения
+скорости битового потока, представляющего
+собой закодированную речь, является
+передача информации о речи, а не самой
+речи, то есть в системе </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+непосредственно речевые сигналы не
+передаются. Вместо речи предаются
+параметры речи: тон (частота речевого
+сигнала), продолжительность конкретного
+тона, высота звука (уровень речевого
+сигнала). Параметры речи после их
+генерации передаются через сеть к другой
+MS, которая воспроизводит речь по
+полученным  параметрам речи.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Процесс сегментации и
+речевого кодирования осуществляется
+в следующей последовательности.
+Воспроизведение человеческой речи
+начинается с вокального аккорда,
+производимого генерирующим тональные
+сигналы речевым органом. Такие речевые
+органы как рот, язык, зубы и т.д. работают
+как фильтр, изменяя природу данного
+тона. Цель речевого кодирования в системе
+</FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+заключается в передачи только информации
+об оригинальном тоне и о фильтрах.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Поскольку речевые органы
+являются достаточно инерционными,
+параметры фильтра, представляющего
+речевые органы, остаются постоянными
+в течение минимум 20 мсек. В связи с этим
+при речевом кодировании в системе </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+используется блочное кодирование с
+длительностью каждого блока в 20 мсек
+(рис.4.2).</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_a371c23.png" NAME="Рисунок 73" ALIGN=BOTTOM WIDTH=462 HEIGHT=163 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.2 Сегментация и
+речевое кодирование</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Кодирование осуществляется
+одним набором битов. На самом деле данный
+процесс похож на оцифровку речи с
+частотой 50 раз в секунду вместо 8000, как
+это используется при стандартном
+аналого-цифровом преобразовании.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Речевое кодирование
+(Speech Coding).</B></FONT><FONT SIZE=4>Вместо использования
+кодирования последовательностью из 13
+битов, применяемого в аналого-цифровом
+преобразовании, в речевом кодировании
+используется кодирование последовательностью
+из 260 битов. Следовательно, общая скорость
+передачи информации о речи составляет
+50*260 = 13 кбит/сек. Данное кодирование
+обеспечивает удовлетворительное
+качество речи, которое приемлемо в
+мобильной телефонии и сравнимо с
+качеством проводных линий сетей общего
+пользования </FONT><FONT SIZE=4><SPAN LANG="en-US">PSTN</SPAN></FONT><FONT SIZE=4>.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>В настоящее время существует
+множество различных речевых кодеров.
+Некоторые кодеры являются высококачественными
+с большей скоростью кодирования
+(</FONT><FONT SIZE=4><SPAN LANG="en-US">waveformcoders</SPAN></FONT><FONT SIZE=4>
+– кодирование формы сигнала). Некоторые
+кодеры обладают низким качеством, но
+обеспечивают меньшую скорость кодирования
+(</FONT><FONT SIZE=4><SPAN LANG="en-US">vocoders</SPAN></FONT><FONT SIZE=4>).
+В системе </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+используются гибридные кодеры
+(</FONT><FONT SIZE=4><SPAN LANG="en-US">HybridCoders</SPAN></FONT><FONT SIZE=4>),
+которые обеспечивают удовлетворительное
+качество речи при относительно малой
+скорости кодирования.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Речевой </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+кодер осуществляет кодирование со
+скоростью 13 кбит/сек для одного абонента.
+Следовательно, 8 абонентов при использовании
+ одной несущей будут обслуживаться со
+скоростью 8*13 кбит/сек = 104 кбит/сек.
+Оптимальность такого метода кодирования
+особенно заметна при сравнении с
+кодированием при аналого-цифровом
+преобразовании со скоростью 832 кбит/сек.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Однако речевое кодирование не
+защищает передаваемую информацию от
+искажения и ошибок при её передаче через
+радиоэфир. Для защиты речи от этих
+негативных явлений используются другие
+методы:</FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>канальное
+    кодирование;</FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>перемежение
+    (интерливинг).</FONT></FONT></P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Канальное кодирование
+(Channel Coding).</B></FONT><FONT SIZE=4>Канальное
+кодирование в системе </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+использует 260 бит, получаемых после
+речевого кодирования, как входную
+величину, и преобразует в последовательность
+состоящую из 456 бит (рис.4.3) [14,16].</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_a082f1b7.png" NAME="Рисунок 78" ALIGN=BOTTOM WIDTH=567 HEIGHT=238 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.3. Канальное кодирование</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>260 бит информации распределяются
+согласно их относительной важности:</FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Блок
+    1: 50 бит – очень важные биты;</FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Блок
+    2: 132 бит - важные биты;</FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Блок
+    3: 78 бит – не очень важные биты.</FONT></FONT></P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Первый блок, состоящий из 50 бит,
+передаётся через кодер (устройство
+блочного кодирования), который добавляет
+ещё 3 бита для проверки четности,
+следовательно, получается последовательность
+из 53 битов. Эти 3 бита предназначаются
+для обнаружения ошибок в принимаемом
+сообщении.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>После блочного кодирования 53
+бита первого блока и 132 бита второго
+блока плюс 4 хвостовых бита (в общем 189
+бит) передаются в свёрточный кодер 1:2, 
+на выходе которого получается 378 бит
+информации. Добавленные биты при
+свёрточном кодировании позволяют
+исправлять ошибки при приёме сообщений.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Остальные же биты третьего
+блока не защищены.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>В результате на выходе
+кодера получаем следующие сигналы
+(рис.4.4).</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<IMG SRC="images/src/html_ce55a31b.png" NAME="Рисунок 91" ALIGN=BOTTOM WIDTH=492 HEIGHT=84 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.4. Речевой кадр</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+<BR>
+</P>
+<H3 LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="text-indent: 0.39in; margin-top: 0in; page-break-inside: auto">
+<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4>Перемежение
+(Interleaving). </FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><I><SPAN STYLE="font-weight: normal">Первый
+уровень перемежения</SPAN></I></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">[1,16]</SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><I><SPAN STYLE="font-weight: normal">.
+</SPAN></I></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=4><SPAN STYLE="font-weight: normal">Следует
+отметить, что канальный кодер осуществляет
+кодирование последовательностью из
+456 битов для каждых 20 мсек. речи. После
+этого осуществляется интерливинг, в
+результате чего формируется 8 блоков
+по 57 бит каждый (рис.4.5).</SPAN></FONT></FONT></FONT></H3>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_a23a7284.png" NAME="Рисунок 84" ALIGN=BOTTOM WIDTH=511 HEIGHT=215 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.5. Интерливинг
+кодированной речи  в интервале 20 мсек</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Как показано на рис.4.6 в
+обычном пакете (</FONT><FONT SIZE=4><SPAN LANG="en-US">normalburst</SPAN></FONT><FONT SIZE=4>)
+есть пространство для двух таких речевых
+блоков (по 57 бит). Назначение остальных
+битов рассмотрим ниже. Таким образом,
+если один из этих блоков теряется, это
+будет соответствовать 25% </FONT><FONT SIZE=4><SPAN LANG="en-US">BER</SPAN></FONT><FONT SIZE=4>
+внутри интервала речи продолжительностью
+20 мсек. (2/8 = 25%).</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_443d3eed.png" NAME="Рисунок 85" ALIGN=BOTTOM WIDTH=562 HEIGHT=44 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.6</FONT><FONT SIZE=4><SPAN LANG="en-US">Normalburst</SPAN></FONT><FONT SIZE=4>
+(обычный интервал)</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><I>Второй уровень
+интерливинга</I></FONT><FONT SIZE=4><I><B>. </B></I></FONT><FONT SIZE=4>Как
+указывалось выше, при первом уровне
+интерливинга результирующие потери
+составляют 25%. Последнее слишком велико
+для осуществления корректировки в
+канальном кодере. Введение второго
+уровня интерливинга позволяет снизить
+</FONT><FONT SIZE=4><SPAN LANG="en-US">BER</SPAN></FONT><FONT SIZE=4>
+до 12.5 % (рис.4.7).</FONT></FONT></P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_305b6a10.png" NAME="Рисунок 89" ALIGN=BOTTOM WIDTH=275 HEIGHT=422 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.7. Второй уровень
+интерливинга</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Здесь, вместо передачи
+двух блоков по 57 бит речевого сообщения
+для интервала 20 мсек. внутри одного
+пакета, система передаёт один блок
+информации  из одного 20 миллисекундного
+речевого сообщения и один блок информации
+ из другого 20 миллисекундного речевого
+сообщения вместе. Такая одновременная
+передача организует в системе задержку
+в 20 мсек., вследствие чего MS должна ждать
+следующие 20 мсек. речи.  Однако система
+при потере всего пакета (</FONT><FONT SIZE=4><SPAN LANG="en-US">burst</SPAN></FONT><FONT SIZE=4>)
+теряет только 12.5% бит каждого временного
+кадра. Последнее хорошо исправляется
+канальным кодером.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Шифрование
+(</B></FONT><FONT SIZE=4><SPAN LANG="en-US"><B>Ciphering</B></SPAN></FONT><FONT SIZE=4><B>/</B></FONT><FONT SIZE=4><SPAN LANG="en-US"><B>Encryption</B></SPAN></FONT><FONT SIZE=4><B>).</B></FONT><FONT SIZE=4>Цель
+шифрования заключается в зашифровке
+речевого пакета (burst) таким образом,
+чтобы никто другой не смог расшифровать
+данное сообщение при использовании
+различных внешних декодеров. Алгоритм
+шифрования в системе GSM называется
+алгоритмом А5 (рис.4.8) [1,16].</FONT></FONT></P>
+<P LANG="ru-RU" STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>При шифровании в передатчике
+информация из открытой (незашифрованной)
+преобразуется в закрытую (зашифрованную)
+по определенному алгоритму шифрования
+с применением секретного ключа, причем,
+чем больше размер секретного ключа в
+битах, тем труднее будет злоумышленнику
+взломать шифрованную посылку (расшифровать
+данные), перехваченную из канала передачи.
+Размер секретного ключа определяется
+алгоритмом шифрования, степенью
+защищенности и трудоемкостью процедуры
+шифрования. При условии, что на приеме
+известен алгоритм шифрования и секретный
+ключ, информация из закрытой преобразуется
+в открытую (дешифрируется).  </FONT></FONT>
+</P>
+<P LANG="en-US" ALIGN=CENTER STYLE="margin-left: 0in; font-style: normal; line-height: 100%; page-break-inside: avoid; page-break-after: avoid">
+<IMG SRC="images/src/html_78287f67.gif" NAME="Рисунок 77" ALIGN=LEFT HSPACE=12 WIDTH=561 HEIGHT=452 BORDER=0><BR CLEAR=LEFT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.8. Схема шифрования
+А5</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>В стандарте GSM 900 для реализации
+шифрования применяется схема шифрования
+А5, построенная на трех сдвиговых
+регистрах LFSR 1, LFSR 2 и LFSR 3 длиной по 19, 22
+и 23 бита соответственно. Секретный ключ
+для схемы шифрования А5 составляет 64
+бита.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Процесс шифрования происходит
+следующим образом:</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>1. Секретный ключ помещается
+в три сдвиговых регистра LFSR 1, LFSR 2 и LFSR
+3 таким образом, что его старшие биты с
+64 по 46 оказываются в регистре LFSR 1, биты
+с 45 по 24 - в регистре LFSR 2 и биты с 23 по 1- 
+в регистре LFSR 3 соответственно.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>2.По приходу синхроимпульса
+CLK от тактового генератора происходит
+ следующее: </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+• <FONT SIZE=3><FONT SIZE=4>Вычисляется выход 
+логической схемы   
+<IMG SRC="images/src/html_6ca99e50.gif" NAME="Object1" ALIGN=BOTTOM WIDTH=263 HEIGHT=21>
+(сумма по модулю 2 битов 19, 22 и 23 сдвиговых
+регистра LFSR 1,   LFSR 2 и  LFSR 3 соответственно);</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+• <FONT SIZE=3><FONT SIZE=4>из сдвиговых регистров
+считываются биты:<IMG SRC="images/src/html_f02deff7.gif" NAME="Object2" ALIGN=BOTTOM WIDTH=31 HEIGHT=25>-10-ый
+бит регистра  LFSR1, 
+<IMG SRC="images/src/html_8cfb7a25.gif" NAME="Object3" ALIGN=BOTTOM WIDTH=39 HEIGHT=21>-
+11-ый бит регистра LFSR 2 и 
+<IMG SRC="images/src/html_235baf46.gif" NAME="Object4" ALIGN=BOTTOM WIDTH=39 HEIGHT=21>
+-12-ый бит регистра  LFSR 3;</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+• <FONT SIZE=3><FONT SIZE=4>если 
+<IMG SRC="images/src/html_f02deff7.gif" NAME="Object5" ALIGN=BOTTOM WIDTH=31 HEIGHT=25>=
+<IMG SRC="images/src/html_8cfb7a25.gif" NAME="Object6" ALIGN=BOTTOM WIDTH=39 HEIGHT=21>=<IMG SRC="images/src/html_235baf46.gif" NAME="Object7" ALIGN=BOTTOM WIDTH=39 HEIGHT=21>,
+то производится сдвиг во всех трех
+регистрах,  причем первым элементом
+регистра становится сумма по mod2 
+последнего битарегистра и считанного
+из середины  бита.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+• <FONT SIZE=3><FONT SIZE=4>если из трех  битов 
+<IMG SRC="images/src/html_f02deff7.gif" NAME="Object8" ALIGN=BOTTOM WIDTH=31 HEIGHT=25>,<IMG SRC="images/src/html_8cfb7a25.gif" NAME="Object9" ALIGN=BOTTOM WIDTH=39 HEIGHT=21>
+и 
+<IMG SRC="images/src/html_235baf46.gif" NAME="Object10" ALIGN=BOTTOM WIDTH=39 HEIGHT=21>
+равны только два (<IMG SRC="images/src/html_e5a0ec6f.gif" NAME="Object11" ALIGN=BOTTOM WIDTH=49 HEIGHT=21>),
+то  сдвиг  происходит только в этих двух
+регистрах LFSR j  и LFSR i соответственно.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+• <FONT SIZE=3><FONT SIZE=4>возвращение к началу
+пункта 2 произойдет только после того,
+как все его действия не будут повторены
+192  раза. Если все действия пункта 2
+выполнены 192 раза- происходит переход
+к пункту 3.</FONT></FONT></P>
+<OL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Из
+    полученных на выходе логической схемы
+    192 бит берутся 92  последних бита. Они
+    дополняются 22 битами открытого ключа,
+    в которые записывается  двоичный номер
+    кадра. Сумма 92 и 22 бит образует
+    специфическую ключевую  комбинацию.</FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Осуществляется
+    перевод 144 битового кадра стандарта
+    GSM 900 с открытой информацией в 144 битовый
+    кадр с закрытой информацией. </FONT></FONT>
+    </P>
+</OL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>С этой целью над 144 битами
+информации (одним кадром) и 144 битами
+специфической ключевой комбинации
+выполняется логическая операция XOR.
+Результатом применения булевой операции
+является зашифрованный (закрытый)
+информационный кадр. </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Процесс дешифрации
+абсолютно аналогичен процессу шифрации
+с той лишь разницей, что логическая
+операция XOR выполняется над зашифрованным
+(закрытым) информационным кадром и
+полученной все тем же образом, но уже в
+приемнике, специфической кодовой
+комбинации, состоящей из 92 битов секретной
+кодовой комбинации и 22 битов открытого
+ключа с номером кадра.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Форматирование пакета
+(Burst Formatting).</B></FONT><FONT SIZE=4> Как указывалось
+выше, каждая передача информации от
+MS/BТS содержит излишнюю информацию
+(тестовую последовательность). Процесс
+форматирования пакета заключается в
+добавлении этих битов (среди которых
+имеются хвостовые биты) к основной
+передаваемой информации, увеличивая
+тем самым скорость (bit </FONT><FONT SIZE=4><SPAN LANG="en-US">rate</SPAN></FONT><FONT SIZE=4>)
+кодирования, но в то же самое время решая
+ проблемы, возникающие при передаче
+информации через радиоэфир.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>В системе </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+входной информацией для форматирования
+пакета является шифрованная информация
+объемом в 456 бит. Процедура форматирования
+пакета добавляет ещё 136 бит на блок из
+20 мсек., в общем преобразуя исходное
+сообщение в результирующее сообщение
+объемом 592 бит.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Однако продолжительность
+каждого временного интервал кадра </FONT><FONT SIZE=4><SPAN LANG="en-US">TDMA</SPAN></FONT><FONT SIZE=4>
+составляет 0.577 мсек. Следовательно,
+имеется возможность передать 156.25 бит
+информации (передача каждого бита
+занимает 3.7 мксек.), но пакет содержит
+только 148 бит. Свободное пространство
+в 8.25 бит является пустым и называется
+защитным периодом (</FONT><FONT SIZE=4><SPAN LANG="en-US">GuardPeriod</SPAN></FONT><FONT SIZE=4>
+- </FONT><FONT SIZE=4><SPAN LANG="en-US">GP</SPAN></FONT><FONT SIZE=4>).
+Данный период времени дает возможность
+MS/BТS осуществить процедуру “</FONT><FONT SIZE=4><SPAN LANG="en-US">rampup</SPAN></FONT><FONT SIZE=4>”
+, “</FONT><FONT SIZE=4><SPAN LANG="en-US">rampdown</SPAN></FONT><FONT SIZE=4>”.
+</FONT><FONT SIZE=4><SPAN LANG="en-US"><B>Rampup</B></SPAN></FONT><FONT SIZE=4>
+означает получение питание от батареи
+или от источника питания MS для передачи
+сигналов. Процедура </FONT><FONT SIZE=4><SPAN LANG="en-US"><B>Rampdown</B></SPAN></FONT><FONT SIZE=4>
+осуществляется после каждой передачи,
+и необходима для того, чтобы убедиться,
+что </FONT><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>
+не использует энергию батареи в течение
+временного интервала, занятого другой
+MS.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>После форматирования
+пакет состоит из 156.25 бит (для одного
+пакета)  или 625 бит (в четырех пакетах)
+для речевого отсчета продолжительностью
+ 20 мсек. Однако для того, чтобы  настроить
+модулятор, с двух сторон пакета доступа
+используются несколько пустых битов.
+Это увеличивает объем сообщения до 676
+бит для каждого речевого отсчета в 20
+мсек. При использовании одной несущей
+в кадре </FONT><FONT SIZE=4><SPAN LANG="en-US">TDMA</SPAN></FONT><FONT SIZE=4>
+кадре для организации связи одновременно
+для 8 абонентов общая скорость битов
+для системы </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+составляет 270.4 кбит/сек. </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><B>Детектор активности
+речи</B></FONT><FONT SIZE=4>(VAD) играет решающую
+роль в снижении потребления энергии от
+аккумуляторной батареи в портативных
+абонентских терминалах. Он также снижает
+интерференционные помехи за счет
+переключения свободных каналов в
+пассивный режим. Реализация VAD зависит
+от типа применяемого речевого кодека.
+Главная задача при проектировании VAD -
+обеспечить надежное отличие между
+условиями активного и пассивного
+каналов. Если канал на мгновение свободен,
+его можно заблокировать, поскольку
+средняя активность речи говорящего
+ниже 50%, то это может привести к существенной
+экономии энергии аккумуляторной батареи.
+К устройствам VAD предъявляются следующие
+основные требования [17,18]:</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=4>- минимизация вероятности ложной
+тревоги при воздействии только </FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=4>шума свысоким уровнем;</FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=4>высокая
+    вероятность правильного обнаружения
+    речи низкого уровня;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>высокое
+    быстродействие распознавания речи,
+    для исключения задержек включения;</FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=4>минимальное
+    время задержки выключения. </FONT>
+    </P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>В стандарте GSM принята
+схема VAD с обработкой в частотной области.
+Структурная схема VAD приведена на
+рис.4.9. </FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<IMG SRC="images/src/html_190abfce.png" NAME="Рисунок 86" ALIGN=BOTTOM WIDTH=511 HEIGHT=222 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.4.9. Структурная схема
+VAD</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Ее работа основана на
+различии спектральных характеристик
+речи и шума. Считается, что фоновый шум
+является стационарным в течение
+относительно большого периода времени,
+его спектр также медленно изменяется
+во времени. VAD определяет спектральные
+отклонения входного воздействия от
+спектра фонового шума. Эта операция
+осуществляется инверсным фильтром,
+коэффициенты которого устанавливаются
+применительно к воздействию на входе
+только фонового шума. При наличии на
+входе речи и шума инверсный фильтр
+осуществляет подавление компонентов
+шума и, в целом, снижает его интенсивность.
+Энергия смеси сигнал + шум на выходе
+инверсного фильтра сравнивается с
+порогом, который устанавливается в
+период воздействия на входе только
+шума. Этот порог находится выше уровня
+энергии шумового сигнала. Превышение
+порогового уровня принимается за наличие
+на входе реализации (сигнал+шум).
+Коэффициенты инверсного фильтра и
+уровень порога изменяются во времени
+в зависимости от текущего значения
+уровня шума при воздействии на входе
+только шума. Поскольку эти параметры
+(коэффициенты и порог) используются
+детектором VAD для обнаружения речи, сам
+VAD не может на этой же основе принимать
+решение, когда их изменять. Это решение
+принимается вторичным VAD на основе
+сравнения огибающих спектров в
+последовательные моменты времени. Если
+они аналогичны для относительно
+длительного периода времени, предполагается,
+что имеет место шум, икоэффициенты
+фильтра и шумовой порог можно изменять,
+то есть адаптировать под текущий уровень
+и спектральные характеристики входного
+шума [17,18].</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>VAD с обработкой в спектральной
+области удачно сочетается с речевым
+RPE/LTP-LPC коде-ком, так как в процессе LPC
+анализа уже определяется огибающая
+спектра входного воздействия, необходимая
+для работы вторичного VAD.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><I><B>Экстраполяция
+потерянного речевого кадра</B></I></FONT><FONT SIZE=4>.
+В условиях замираний сигналов в подвижной
+связи речевые фрагменты могут подвергаться
+значительным искажениям. При этом для
+исключения раздражающего эффекта при
+воспроизведении необходимо осуществлять
+экстраполяцию речевого кадра.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Было установлено, что потеря
+одного речевого кадра может быть
+значительно компенсирована путем
+повторения предыдущего фрагмента. При
+значительных по продолжительности
+перерывах в связи предыдущий фрагмент
+больше не повторяется, и сигнал на выходе
+речевого декодера постепенно заглушается,
+чтобы указать пользователю на разрушение
+канала.То же самое происходит и с SID
+кадром. Если SID кадр потерян во время
+речевой паузы, то формируется комфортный
+шум с параметрами предыдущего SID кадра.
+Если потерян еще один SID кадр, то комфортный
+шум постепенно заглушается.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Применение экстраполяции речи
+при цифровой передаче, формирование
+плавных акустических переходов при
+замираниях сигнала в каналах в совокупности
+с полным DTX процессом значительно
+улучшает потребительские качества
+связи с GSM PLMN по сравнению с  существующими
+аналоговыми сотовыми системами связи.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><I><B>Формирование комфортного
+шума </B></I></FONT><FONT SIZE=4>осуществляется в
+паузах активной речи и управляется
+речевым декодером. Когда детектор
+активности речи (VAD) в передатчике
+обнаружит, что говорящий прекращает
+разговор, передатчик остается еще
+включенным в течение следующих пяти
+речевых кадров. Во время первых четырех
+из них характеристики фонового шума
+оцениваются путем усреднения коэффициента
+усиления и коэффициентов фильтра LPC
+анализа. Эти усредненные значения
+передаются в следующем пятом кадре, в
+котором содержат информацию о комфортном
+шуме (SID кадр).</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>В речевом декодере комфортный
+шум генерируется на основе LPC анализа
+SID кадра. Чтобы исключить раздражающее
+влияние модуляции шума, комфортный шум
+должен соответствовать по амплитуде и
+спектру реальному фоновому шуму в месте
+передачи. В условиях подвижной связи
+фоновый шум может постоянно изменяться.
+Это значит, что характеристики шума
+должны передаваться с передающей стороны
+на приемную сторону не только в конце
+каждого речевого всплеска, но и в речевых
+паузах так, чтобы между комфортным и
+реальным шумом не было бы резких
+рассогласований в следующих речевых
+кадрах. По этой причине SID кадры посылаются
+каждые 480 мс в течение речевых пауз.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4>Динамическое изменение
+характеристик комфортного шума
+обеспечивает натуральность воспроизведения
+речевого сообщения при использовании
+системы прерывистой передачи речи.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+                        </div>
+                         
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            </div>
+        </div>
+
+
+
+        <!--Load JavaScript-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
+        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </body>
+</html>

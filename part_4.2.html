@@ -1,0 +1,397 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Процессы обработки речи</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by Colorlib" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="Colorlib" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
+        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='style.css' />
+
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+
+    <body class="single-post">
+
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="images/ajax-document-loader.gif" alt="Loading...">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Left Sidebar -->
+        <div id="sidebar" class="sidebar">
+            <div class="menu-left-part">
+                <div class="search-holder">
+                    <label>
+                        <input type="search" class="search-field" placeholder="Type here to search..." value="" name="s"
+                               title="Search for:">
+                    </label>
+                </div>
+                <div class="site-info-holder">
+                    <h1 class="site-title">Учебник по курсу</h1>
+                    <p class="site-description">
+                        «GSM and mobility management»
+                        (GSM и управление мобильностью)
+                    </p>
+                </div>
+                <nav id="header-main-menu">
+                    <ul class="main-menu sm sm-clean">
+                        <li><a href="index.html" >Главный</a></li>
+                        <li><a href="part_4.1.html" >4.1. Процессы обработки речи</a></li>
+                        <li><a href="part_4.2.html" class="current">4.2. Модуляция</a></li>
+                        <li><a href="part_4.3.html">4.3. Проблемы, возникающие при передаче радиосигналов
+                            и их решения
+                        </a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <div class="footer-info">
+                        ТАШКЕНТСКИЙ УНИВЕРСИТЕТ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ ИМЕНИ МУХАММАДА АЛ-ХОРЕЗМИЙ <br> Факультет «Радио и
+                        мобильной связи» <a href="tuit.uz">Кафедра «Технологии мобильной связи»</a> Ташкент 2019 <i
+                            class="fa fa-book"></i>
+                    </div>
+                </footer>
+            </div>
+            <div class="menu-right-part">
+                <div class="logo-holder">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Suppablog WP">
+                    </a>
+                </div>
+
+                <div class="toggle-holder">
+                    <div id="toggle">
+                        <div class="menu-line"></div>
+                    </div>
+                </div>
+                <div class="social-holder">
+                    <div class="social-list">
+                        <a href="part_1.html"><i class="fa fa-signal" title="Глава 1. Сотовая связь стандарта GSM"></i></a>
+                        <a href="part_2.html"><i class="fa fa-mobile-phone" title="Глава 2. Управление мобильностью"></i></a>
+                        <a href="part_3.html"><i class="fa fa-mixcloud"
+                                                 title="Глава 3. Аспекты безопасности, протоколы сети, частотный план и структура кадров в стандарте GSM"></i></a>
+                        <a href="part_4.html"><i class="fa fa-barcode"
+                                                 title="Глава 4. Обработка речи в стандарте GSM и проблемы,  возникающие при передачи радиосигналов"></i></a>
+                        <a href="part_5.html"><i class="fa fa-feed"
+                                                 title="Глава 5. Управление сетями связи в стандарте GSM"></i></a>
+                        <a href="part_6.html"><i class="fa fa-tablet" title="Глава 6. Мобильное приложение в стандартеGSM"></i></a>
+                    </div>
+                </div>
+                <div class="fixed scroll-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+        <!-- Single Content -->
+        <div id="content" class="site-content center-relative">
+            <div class="single-post-wrapper content-1070 center-relative">
+
+                <article class="center-relative">
+                    <h1 class="entry-title">
+                      Глава 4.2. Модуляция
+
+                    </h1>
+
+                    <div class="entry-content">
+                         <div class="content-wrap content-660 center-relative"> 
+
+ 
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>В стандарте GSM выбрана
+гауссовская частотная манипуляция с
+минимальным частотным сдвигом – GMSK и
+с индексом модуляции 0,3. М</FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">етод
+представляет собой частотную манипуляцию,
+при которой несущая частота принимает
+дискретные значения через интервалы
+времени, кратные периоду Т битовой
+модулирующей последовательности.
+Используются две дискретные частоты
+несущей f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">0</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">:</SPAN></FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">н</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+= f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">0</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+- F/4 и f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">в</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+= f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">0</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
++ F/4,</SPAN></FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=4><SPAN STYLE="background: #ffffff">где F = 1/Т -
+частота входной битовой последовательности.
+</SPAN></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">Получаемый
+разнос частот Df=f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">в</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+– f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">н</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+= F/2 - это минимально возможный разнос,
+при котором обеспечивается ортогональность
+колебаний частот f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">в</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+и f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">н</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+на интервале Т длительности одного
+бита. При этом за интервал Т между
+колебаниями частот f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">в</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+и f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">н</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+набегает разность фаз, равнаяp</SPAN></FONT></FONT><FONT COLOR="#000000"><SPAN STYLE="background: #ffffff">.
+</SPAN></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">Таким
+образом, термин «минимальный сдвиг» в
+названии метода модуляции относится к
+минимально возможному сдвигу частоты
+несущей. </SPAN></FONT></FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4><SPAN STYLE="background: #ffffff">Модуляция
+несущей непосредственно прямоугольными
+импульсами битовой последовательности
+приводит к довольно широкому спектру
+частот, занимаемому в эфире радиосигналом.
+Более узкий спектр получается при
+модуляции «сглаженными» импульсами.
+Потому модулирующую битовую
+последовательность вначале пропускают
+через сглаживающий узкополосный
+гауссовский фильтр, чему и соответствует
+термин «гауссовская» в названии метода
+модуляции. Именно эта дополнительная
+фильтрация отличает метод GMSK от метода
+MSK (Minimum Shift Keying - манипуляция с минимальным
+сдвигом). </SPAN></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4><SPAN STYLE="background: #ffffff">Метод MSK иногда
+рассматривают как метод квадратурной
+фазовой манипуляции со смещением
+(OQPSK), но с заменой прямоугольных
+модулирующих импульсов длительности
+2Т полуволновыми отрезками синусоид
+или косинусоид. Рассмотрим сначала
+метод MSK, а затем отметим отличия,
+возникающие за счет дополнительной
+гауссовской фильтрации. </SPAN></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4><SPAN STYLE="background: #ffffff">В методе MSK
+входная битовая последовательность
+разбивается на две последовательности,
+состоящие соответственно четным и
+нечетным импульсам. Модулированный
+выходной сигнал модулятора на протяжении
+очередного n-го бита определяется
+выражением, зависящим от состояния
+текущего n-го и предшествующего (n-1)- го
+бита: </SPAN></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">u(t)
+= ±Cos(pt/2T)Cos w</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">0</SPAN></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">t
+± Sin(pt/2T)Sin w</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">0</SPAN></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">t
+= ±Cos(w</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">0</SPAN></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">t
+± pt/2T),</SPAN></SPAN></FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4><SPAN STYLE="background: #ffffff">(n-1) T £ t £ nT</SPAN></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4><SPAN STYLE="background: #ffffff">Отсюда следует,
+что текущая фаза модулированного
+сигнала: </SPAN></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">j(t)
+= </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">w</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">0</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">t</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+± pt / 2T</SPAN></FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4><SPAN STYLE="background: #ffffff">За период
+следования входных битов Т набег фазы
+составит:</SPAN></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">Dj
+= ± p/2,</SPAN></FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=4><SPAN STYLE="background: #ffffff">а мгновенная
+частота, как производная от фазы </SPAN></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">w(t)
+= d[j(t)]/dt = w</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">0</SPAN></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">
+± p/2T = 2p (f</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">0</SPAN></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">
+± F/4),</SPAN></SPAN></FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">т.е.
+мгновенная частота принимает одно из
+двух значений f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">в</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+или f</SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">н</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">.
+Эта частота постоянна на протяжении
+бита. Изменение знака перед синусами в
+выражении для модулированного сигнала
+означает переход с одной частоты на
+другую. Изменение общего знака перед
+выражением модулирующего сигнала,
+эквивалентное изменению начальной фазы
+несущей на p, позволяет сохранить
+непрерывность фазы колебаний при
+изменении частоты. </SPAN></FONT></FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><SPAN STYLE="background: #ffffff">Для
+наглядного пояснения метода MSK обратимся
+к рис.4.10. </SPAN></FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<SPAN STYLE="background: #ffffff"><IMG SRC="images/src/html_84257a12.png" NAME="Рисунок 92" ALIGN=BOTTOM WIDTH=583 HEIGHT=584 BORDER=0></SPAN></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">Рис.4.10.
+Временные диаграммы сигналов GMSK</SPAN></FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">На
+первом графике представлен пример
+входной битовой (модулирующей)
+последовательности </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">а</SPAN></I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">.
+Второй и третий графики дают соответственно
+последовательности нечетных </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">i</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+и четных </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">q</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+бит входной последовательности, причем
+длительность каждого бита увеличена
+вдвое в сторону запаздывания, т.е. каждый
+бит «растянут» во времени до 2-х битового
+символа, и для удобства последующих
+рассуждений принято, что последовательности
+</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">i</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">и
+</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">q</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">принимают
+значения + 1 и - 1 (значения - 1 соответствуют
+значению 0 исходной последовательности
+</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">а</SPAN></I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">).
+В результате для каждого битового
+интервала Т расположенные одно над
+другим значения </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">i</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+и </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">q</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">дают
+как раз ту пару четного и нечетного бит,
+которые являются аргументом закона
+модуляции. </SPAN></FONT></FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">Четвертый
+и пятый графики показывают форму
+модулирующих сигналов двух квадратурных
+каналов </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">b</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">i</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+и </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">b</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">q</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">,
+получаемых как произведение функций
+</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">i</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+и </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">q</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">соответственно
+на квадратурные низкочастотные сигналы
+Sin (pt/2T) и Cos (pt/2T). Обратите внимание на
+скачкообразные изменения фазы этих
+сигналов на p в моменты изменения знаков
+</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">i</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">
+и </SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><SPAN STYLE="background: #ffffff">a</SPAN></I></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN LANG="en-US"><I><SPAN STYLE="background: #ffffff">q</SPAN></I></SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">.</SPAN></FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">Окончательный
+модулированный сигнал, получается как
+результат перемножения модулирующих
+сигналов квадратурных каналов с
+соответствующими несущими Sin(</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">w</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">0</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">t</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">)
+и Cos(</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">w</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><SUB><FONT SIZE=4><SPAN STYLE="background: #ffffff">0</SPAN></FONT></SUB></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN LANG="en-US"><SPAN STYLE="background: #ffffff">t</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">)
+и последующим суммированием полученных
+произведений.</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="MuseoSansCyrl, Times New Roman, serif"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="background: #ffffff">&nbsp;</SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="background: #ffffff">Принцип
+формирования</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT SIZE=4>GMSK-сигнала
+приведен на рис.4.11.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<BR>
+</P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<FONT COLOR="#333333"><IMG SRC="images/src/html_d906cb41.png" NAME="Рисунок 93" ALIGN=BOTTOM WIDTH=510 HEIGHT=268 BORDER=0></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#333333"><FONT SIZE=4>Рис.4.11. Принцип
+формирования GMSK-сигнала</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT COLOR="#333333"><FONT SIZE=4>Модуляцию GMSK
+характеризуют следующие свойства:</FONT></FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT COLOR="#333333"><FONT SIZE=4>постоянная по уровню
+    огибающая, позволяющая использовать
+    передающие устройства с усилителями
+    мощность класса С;</FONT></FONT></P>
+</UL>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT COLOR="#333333"><FONT SIZE=4>узкий спектр на
+    выходе усилителя мощности передающего
+    устройства обеспечивающий низкий
+    уровень внеполосного излучения;</FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT COLOR="#333333"><FONT SIZE=4>хорошая помехоустойчивость
+    канала связи.</FONT></FONT></P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<BR>
+</P>
+
+
+                        </div>
+                         
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            </div>
+        </div>
+
+
+
+        <!--Load JavaScript-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
+        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </body>
+</html>
+

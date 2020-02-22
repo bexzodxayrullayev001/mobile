@@ -1,0 +1,666 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <title>Suppablog - Minimal Blog Html Template</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Template by Colorlib"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP"/>
+    <meta name="author" content="Colorlib"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="images/favicon.png"/>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href='css/clear.css'/>
+    <link rel="stylesheet" type="text/css" href='css/common.css'/>
+    <link rel="stylesheet" type="text/css" href='css/font-awesome.min.css'/>
+    <link rel="stylesheet" type="text/css" href='css/carouFredSel.css'/>
+    <link rel="stylesheet" type="text/css" href='css/sm-clean.css'/>
+    <link rel="stylesheet" type="text/css" href='style.css'/>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="single-post">
+
+<!-- Preloader Gif -->
+<table class="doc-loader">
+    <tbody>
+    <tr>
+        <td>
+            <img src="images/ajax-document-loader.gif" alt="Loading...">
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<!-- Left Sidebar -->
+<div id="sidebar" class="sidebar">
+    <div class="menu-left-part">
+        <div class="search-holder">
+            <label>
+                <input type="search" class="search-field" placeholder="Type here to search..." value="" name="s"
+                       title="Search for:">
+            </label>
+        </div>
+        <div class="site-info-holder">
+            <h1 class="site-title">Учебник по курсу</h1>
+            <p class="site-description">
+                «GSM and mobility management»
+                (GSM и управление мобильностью)
+            </p>
+        </div>
+        <nav id="header-main-menu">
+            <ul class="main-menu sm sm-clean">
+                <li><a href="index.html" >Главный</a></li>
+                <li><a href="part_2.1.html" class="current">2.1. Процедуры управления мобильностью</a></li>
+                <li><a href="part_2.2.html">2.2. Идентификаторы сети GSM</a></li>
+                <li><a href="part_2.3.html">2.3. Варианты сценариев обслуживания вызовов</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <div class="footer-info">
+                ТАШКЕНТСКИЙ УНИВЕРСИТЕТ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ ИМЕНИ МУХАММАДА АЛ-ХОРЕЗМИЙ <br> Факультет «Радио и
+                мобильной связи» <a href="tuit.uz">Кафедра «Технологии мобильной связи»</a> Ташкент 2019 <i
+                    class="fa fa-book"></i>
+            </div>
+        </footer>
+    </div>
+    <div class="menu-right-part">
+        <div class="logo-holder">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Suppablog WP">
+            </a>
+        </div>
+
+        <div class="toggle-holder">
+            <div id="toggle">
+                <div class="menu-line"></div>
+            </div>
+        </div>
+        <div class="social-holder">
+            <div class="social-list">
+                <a href="part_1.html"><i class="fa fa-signal" title="Глава 1. Сотовая связь стандарта GSM"></i></a>
+                <a href="part_2.html"><i class="fa fa-mobile-phone" title="Глава 2. Управление мобильностью"></i></a>
+                <a href="part_3.html"><i class="fa fa-mixcloud"
+                                         title="Глава 3. Аспекты безопасности, протоколы сети, частотный план и структура кадров в стандарте GSM"></i></a>
+                <a href="part_4.html"><i class="fa fa-barcode"
+                                         title="Глава 4. Обработка речи в стандарте GSM и проблемы,  возникающие при передачи радиосигналов"></i></a>
+                <a href="part_5.html"><i class="fa fa-feed"
+                                         title="Глава 5. Управление сетями связи в стандарте GSM"></i></a>
+                <a href="part_6.html"><i class="fa fa-tablet" title="Глава 6. Мобильное приложение в стандартеGSM"></i></a>
+            </div>
+        </div>
+        <div class="fixed scroll-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<!-- Single Content -->
+<div id="content" class="site-content center-relative">
+    <div class="single-post-wrapper content-1070 center-relative">
+
+        <article class="center-relative">
+            <h1 class="entry-title">
+                Глава 2.2. Идентификаторы сети
+            </h1>
+            <div class="entry-content">
+                <div class="content-wrap content-660 center-relative ">
+
+
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><B>Идентификаторы сети</B></FONT><FONT SIZE=4>
+                            – ряд номеров, которые сеть </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+                            использует для определения местоположения
+                            абонента при установлении соединения.
+                            Данные идентификаторы используются
+                            для маршрутизации вызовов к </FONT><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>.
+                            Важно, чтобы каждый идентификационный
+                            номер был уникальным и был всегда
+                            корректно определён.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=4><B>Идентификаторы абонентов</B></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><I><B>Номер мобильной станции
+                            (</B></I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I><B>MSISDN</B></I></SPAN></FONT><FONT SIZE=4><I><B>)
+                        </B></I></FONT><FONT SIZE=4>уникально определяет
+                            абонирование мобильного абонента в
+                            номерном плане сети </FONT><FONT SIZE=4><SPAN LANG="en-US">PSTN</SPAN></FONT><FONT SIZE=4>.
+                            Данный номер набирается при установлении
+                            входящего соединения к абоненту сети
+                            мобильной связи и не содержится на
+                        </FONT><FONT COLOR="#0000ff"><A HREF="http://uz.com.ru/wiki/SIM-карта"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none">SIM-карте</SPAN></FONT></FONT></A></FONT><FONT SIZE=4>,
+                            а сопоставлен с </FONT><FONT COLOR="#0000ff"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none"><A HREF="http://uz.com.ru/wiki/IMSI">IM
+SI</A><A HREF="http://uz.com.ru/wiki/SIM-карта">SIM-карты</A></SPAN></FONT></FONT></FONT><FONT SIZE=4>
+                            в </FONT><FONT COLOR="#0000ff"><A HREF="http://uz.com.ru/wiki/GSM_core_network"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none">HLR</SPAN></FONT></FONT></A></FONT><FONT SIZE=4>,
+                            и предназначается для передачи </FONT><FONT COLOR="#0000ff"><A HREF="http://uz.com.ru/wiki/Телефонный_номер"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none">номера
+телефона</SPAN></FONT></FONT></A></FONT> <FONT SIZE=4>назначенному
+                            абоненту и для получения звонков на
+                            телефон </FONT><A HREF="http://uz.com.ru/wiki/MSISDN#cite_note-%D0%94%D0%B6%D0%B5%D0%BD%D1%81%D0%B5%D0%BD-2"><FONT COLOR="#0000ff"><U><FONT COLOR="#000000"><FONT SIZE=4>[</FONT></FONT></U></FONT><FONT COLOR="#0000ff"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none">6</SPAN></FONT></FONT></FONT><FONT COLOR="#0000ff"><U><FONT COLOR="#000000"><FONT SIZE=4>]</FONT></FONT></U></FONT></A><FONT SIZE=4>.
+                            Основной MS ISDN номер используется для
+                            идентификации абонента при предоставлении
+                            большинства услуг и может быть изменен
+                            без замены </FONT><FONT COLOR="#0000ff"><A HREF="http://uz.com.ru/wiki/SIM-карта"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none">SIM-карты</SPAN></FONT></FONT></A></FONT><FONT SIZE=4>.
+                            Возможно также сопоставить SIM-карте
+                            несколько дополнительных MS ISDN для работы
+                            с факсимильной связью и передачи данных.
+                            MS ISDN входит в состав долговременных
+                            данных, хранящихся в </FONT><FONT COLOR="#0000ff"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none"><A HREF="http://uz.com.ru/wiki/GSM_core_network">HLR
+и VLR</A><A HREF="http://uz.com.ru/wiki/MSISDN#cite_note-%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-3">[6]</A>.
+Структура </SPAN></FONT></FONT></FONT><FONT SIZE=4>MSISDN
+                            приведена на </FONT><FONT COLOR="#0000ff"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none">рис.2.4</SPAN></FONT></FONT></FONT><FONT SIZE=4>.</FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+                        <IMG SRC="images/src/html_40e75f2e.png" NAME="Рисунок 10" ALIGN=BOTTOM WIDTH=387 HEIGHT=157 BORDER=0></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        Рис.2.4. Идентификатор <SPAN LANG="en-US">MSISDN</SPAN></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">CC
+	(Country Code) – </SPAN></FONT><FONT SIZE=4>код</FONT><FONT SIZE=4><SPAN LANG="en-US">
+	</SPAN></FONT><FONT SIZE=4>страны</FONT><FONT SIZE=4><SPAN LANG="en-US">;</SPAN></FONT></FONT></P>
+                        <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">NDC</SPAN></FONT><FONT SIZE=4>
+                            (</FONT><FONT SIZE=4><SPAN LANG="en-US">National</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Destination</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Code</SPAN></FONT><FONT SIZE=4>)
+                            – национальный код пункта назначения;</FONT></FONT></P>
+                        <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">SN
+	(Subscriber Number) – </SPAN></FONT><FONT SIZE=4>номер</FONT><FONT SIZE=4><SPAN LANG="en-US">
+	</SPAN></FONT><FONT SIZE=4>абонента</FONT><FONT SIZE=4><SPAN LANG="en-US">.</SPAN></FONT></FONT></P>
+                    </UL>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4>MS ISDN, как и </FONT><FONT COLOR="#0000ff"><A HREF="http://uz.com.ru/wiki/IMSI"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none">IMSI</SPAN></FONT></FONT></A></FONT><FONT SIZE=4>,
+                            может достигать 15 цифр и, в соответствии
+                            с </FONT><FONT COLOR="#0000ff"><A HREF="http://uz.com.ru/wiki/E.164"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none">E.164</SPAN></FONT></FONT></A></FONT><FONT SIZE=4>,
+                            состоит из трех частей. При этом конкретные
+                            длины составляющих частей регулируются
+                            международным и локальным законодательствами,
+                            например:</FONT></FONT></P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+                            <FONT SIZE=3><FONT COLOR="#0000ff"><U><A HREF="http://uz.com.ru/wiki/Россия"><FONT COLOR="#000000"><FONT SIZE=4>Россия</FONT></FONT></A></U></FONT><FONT SIZE=4>:
+                                CC=1 цифра (7) (следует учитывать, что из
+                                данного диапазона выделен Казахстан,
+                                у которого CC=2 цифры (77)), NDC=3 цифры
+                                (например, 903), SN=7 цифр (1234567), итого — 11
+                                цифр (итоговый пример: 7-903-1234567).</FONT></FONT></P>
+                    </UL>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+                            <FONT SIZE=3><FONT COLOR="#0000ff"><U><A HREF="http://uz.com.ru/wiki/Украина"><FONT COLOR="#000000"><FONT SIZE=4>Украина</FONT></FONT></A></U></FONT><FONT SIZE=4>:
+                                CC=3 цифры (380), NDC=2 цифры (например, 50), SN=7
+                                цифр (1234567), итого — 12 цифр (итоговый
+                                пример: 380-50-1234567).</FONT></FONT></P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+                            <FONT SIZE=3><FONT COLOR="#0000ff"><U><A HREF="http://uz.com.ru/wiki/Белоруссия"><FONT COLOR="#000000"><FONT SIZE=4>Белоруссия</FONT></FONT></A></U></FONT><FONT SIZE=4>:
+                                CC=3 цифры (375), NDC=2 цифры (например, 29), SN=7
+                                цифр (1234567), итого — 12 цифр (итоговый
+                                пример: 375-29-1234567).</FONT></FONT></P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+                            <FONT SIZE=3><FONT SIZE=4>Узбекистан: CC=3 цифры
+                                (998), NDC=2 цифры (например, 90), SN=7 цифр
+                                (1234567), итого — 12 цифр (итоговый пример:
+                                998-90-1234567).</FONT></FONT></P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4>Для каждой сети </FONT><FONT SIZE=4><SPAN LANG="en-US">PLMN</SPAN></FONT><FONT SIZE=4>
+                            существует свой </FONT><FONT SIZE=4><SPAN LANG="en-US">NDC</SPAN></FONT><FONT SIZE=4>.
+                            Например, в Ирландии </FONT><FONT SIZE=4><SPAN LANG="en-US">NDC</SPAN></FONT><FONT SIZE=4>
+                            может быть 086 и 087, что указывает на
+                            наличие двух операторов </FONT><FONT SIZE=4><SPAN LANG="en-US">PLMN</SPAN></FONT><FONT SIZE=4>.
+                            В России для каждой </FONT><FONT SIZE=4><SPAN LANG="en-US">PLMN</SPAN></FONT><FONT SIZE=4>
+                            определены несколько </FONT><FONT SIZE=4><SPAN LANG="en-US">NDC</SPAN></FONT><FONT SIZE=4>.
+                            Интернациональный номер </FONT><FONT SIZE=4><SPAN LANG="en-US">MSISDN</SPAN></FONT><FONT SIZE=4>
+                            может быть переменной длины. В Узбекистане
+                            один </FONT><FONT SIZE=4><SPAN LANG="en-US">NDC</SPAN></FONT><FONT SIZE=4>
+                            – 998.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><I><B>Интернациональный
+                            идентификатор мобильного абонента
+                            (</B></I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I><B>IMSI</B></I></SPAN></FONT><FONT SIZE=4><I><B>)</B></I></FONT><FONT SIZE=4>–
+                            это индивидуальный номер каждого
+                            абонента, по которому система распознает
+                            пользователя мобильной связи, использующего
+                            стандарты GSM или UMTS. По данному номеру
+                            происходит идентификация абонента
+                            через радиоэфир и через всю сеть, а также
+                            используется для сигнализации </FONT><FONT SIZE=4><SPAN LANG="en-US">PLMN</SPAN></FONT><FONT SIZE=4>.
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">IMSI</SPAN></FONT><FONT SIZE=4>
+                            хранится в </FONT><FONT SIZE=4><SPAN LANG="en-US">SIM</SPAN></FONT><FONT SIZE=4>,
+                            в HLR и в обслуживающем VLR.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4>В момент регистрации в
+                            сети аппаратом абонента передается
+                            идентификатор IMSI, с помощью которого и
+                            происходит идентификация. Для того,
+                            чтобы исключить возможность
+                            несанкционированного перехвата, отправка
+                            этого номера через сеть осуществляется
+                            так редко, как только это возможно. Во
+                            всех случаях, когда есть такая возможность,
+                            вместо него отправляется TMSI, код, который
+                            был случайно сгенерирован по определенному
+                            алгоритму. TMSI – это идентификатор
+                            конкретной мобильной станции, используемый
+                            как временный в процессе регистрации
+                            в сети, при установке звонка и тому
+                            подобное. Его назначение возможно только
+                            после успешного завершения аутентификации
+                            с помощью IMSI.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4>Идентификатор в системе
+                            GSM содержится в элементарном файле6F07
+                            на SIM-карте. Формат, в котором на SIM-карте
+                            хранится IMSI, описан ETSI-стандартом,
+                            предусмотренным спецификацией GSM 11.11.
+                            Помимо этого, IMSI использует любая
+                            мобильная сеть, которая соединена с
+                            другими сетями, например, с CDMA или EVDO,
+                            идентично сетям GSM. Такой номер связан
+                            напрямую с телефоном, но может иметь
+                            связь с картой R-UIM, которая выполняет
+                            функции SIM-карты для систем CDMA.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4>Обычно IMSI имеет длину в
+                            15 цифр, но иногда может быть несколько
+                            короче. Например, стандартный IMSI из 15
+                            цифр: 250-07-XXXXXXXXXX. По первым трем цифрам
+                            (250) определяется страна (Россия). Дальше
+                            (07) закодирована мобильная сеть (CMAPTC).
+                            Для кода мобильной сети используются
+                            две или три цифры – для европейского
+                            стандарта две, а для североамериканского
+                            – три. Все оставшиеся цифры – это номер
+                            идентификации пользователя. E.212ITU –
+                            стандарт нумерации, которому соответствует
+                            IMSI.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><I><B>Временный идентификатор
+                            мобильного абонента</B></I></FONT><FONT SIZE=4><I>
+                            (</I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I>TMSI</I></SPAN></FONT><FONT SIZE=4><I>)</I></FONT><FONT SIZE=4>-временный
+                            номер </FONT><FONT SIZE=4><SPAN LANG="en-US">IMSI</SPAN></FONT><FONT SIZE=4>,
+                            который дается MS при её регистрации. Он
+                            используется для того, чтобы защитить
+                            абонента от прослушивания и
+                            несанкционированного доступа в
+                            радиочастотном тракте. </FONT></FONT>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">TMSI</SPAN></FONT><FONT SIZE=4>
+                            используется только для локального
+                            абонирования (только в одной зоне
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">MSC</SPAN></FONT><FONT SIZE=4>/</FONT><FONT SIZE=4><SPAN LANG="en-US">VLR</SPAN></FONT><FONT SIZE=4>)
+                            и изменяется при изменении местоположения
+                            (</FONT><FONT SIZE=4><SPAN LANG="en-US">Location</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Update</SPAN></FONT><FONT SIZE=4>).
+                            Структура </FONT><FONT SIZE=4><SPAN LANG="en-US">TMSI</SPAN></FONT><FONT SIZE=4>
+                            может быть определена каждым оператором,
+                            но не может превышать 8 цифр. Поскольку
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">TMSI</SPAN></FONT><FONT SIZE=4>
+                            имеет в два раза меньший размер, чем
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">IMSI</SPAN></FONT><FONT SIZE=4>,
+                            пейджинг в одном кадре осуществляется
+                            для двух абонентов, что также сокращает
+                            нагрузку на процессор.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><I><B>Идентификационный
+                            номер оборудования </B></I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I><B>MS</B></I></SPAN></FONT><FONT SIZE=4><I>
+                            (</I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I>IMEI</I></SPAN></FONT><FONT SIZE=4><I>)
+                        </I></FONT><FONT SIZE=4>используется для уникальной
+                            идентификации мобильного оборудования
+                            в сети. Данный код используется в
+                            процедурах обеспечения безопасности
+                            связи для идентификации украденного
+                            оборудования и предотвращения
+                            неавторизованного доступа в сеть.
+                            Согласно спецификациям </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+                            длина </FONT><FONT SIZE=4><SPAN LANG="en-US">IMEI</SPAN></FONT><FONT SIZE=4>
+                            составляет 15 цифр (рис.2.5):</FONT></FONT></P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="en-US" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <IMG SRC="images/src/html_f63fec01.png" NAME="Рисунок 8" ALIGN=BOTTOM WIDTH=407 HEIGHT=104 BORDER=0></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        Рис.2.5 Идентификатор <SPAN LANG="en-US">IMEI</SPAN></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">TAC</SPAN></FONT><FONT SIZE=4>
+                            (</FONT><FONT SIZE=4><SPAN LANG="en-US">Type</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Approval</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Code</SPAN></FONT><FONT SIZE=4>)
+                            - код утвержденного типового образца.</FONT></FONT></P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><SPAN LANG="en-US">FAC</SPAN>
+                            (<SPAN LANG="en-US">Final</SPAN> <SPAN LANG="en-US">Assembly</SPAN>
+                            <SPAN LANG="en-US">Code</SPAN>) - код окончательно
+                            собранного изделия,
+                        </P>
+                    </UL>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0.39in; line-height: 100%">
+                        присваивает производитель.</P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><SPAN LANG="en-US">SNR</SPAN>
+                            (<SPAN LANG="en-US">Serial</SPAN> <SPAN LANG="en-US">Number</SPAN>)
+                            - индивидуальный серийный номер.
+                            Идентифицирует полностью все оборудование
+                            с учетом кодов <SPAN LANG="en-US">TAC</SPAN> и <SPAN LANG="en-US">FAC</SPAN>.</P>
+                    </UL>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><SPAN LANG="en-US">Spare</SPAN><B>
+                            - </B>свободные цифры. Зарезервированы
+                            для будущего использования. Когда
+                            данный код передается в <SPAN LANG="en-US">MS</SPAN>,
+                            значение данного кода должно быть
+                            всегда «0».</P>
+                    </UL>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <I><B>Интернациональный идентификатор
+                            оборудования MS и номер программного
+                            обеспечения (</B></I><SPAN LANG="en-US"><I><B>IMEISV</B></I></SPAN><I><B>)
+                    </B></I>обеспечивает уникальную идентификацию
+                        каждой MS, а также обеспечивает соответствие
+                        версии программного обеспечения,
+                        инсталлированного в MS, разрешенному
+                        оператором. Версия программного
+                        обеспечения является важным параметром,
+                        так как от этого зависят услуги, доступные
+                        для MS, а также способность выполнять
+                        речевое кодирование. Так, например, <SPAN LANG="en-US">PLMN</SPAN>
+                        необходимо знать для возможностей
+                        речевого кодирования MS при установлении
+                        соединения (например, <SPAN LANG="en-US">halfrate</SPAN>/<SPAN LANG="en-US">fullrate</SPAN>,
+                        и т д.). Данные возможности отображаются
+                        с помощью <SPAN LANG="en-US">IMEISV</SPAN>.Идентификатор
+                        <SPAN LANG="en-US">IMEISV</SPAN> состоит из (рис.2.6):</P>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+                        <IMG SRC="images/src/html_b56f5f72.png" NAME="Рисунок 7" ALIGN=BOTTOM WIDTH=394 HEIGHT=117 BORDER=0></P>
+                    <P LANG="ru-RU" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        Рис.2.6 Идентификатор <SPAN LANG="en-US">IMEISV</SPAN></P>
+                    <P LANG="ru-RU" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">SVN</SPAN></FONT><FONT SIZE=4>
+                            (</FONT><FONT SIZE=4><SPAN LANG="en-US">Software</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Version</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Number</SPAN></FONT><FONT SIZE=4>)
+                            - номер программной версии, позволяет
+                            производителю MS идентифицировать
+                            различные версии программного обеспечения
+                            утверждённого типового образца MS. </FONT><FONT SIZE=4><SPAN LANG="en-US">SVN</SPAN></FONT><FONT SIZE=4>
+                            со значением 99,зарезервирован для
+                            будущих целей.</FONT></FONT></P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><B>Идентификаторы
+                            местоположения. </B></FONT><FONT SIZE=4><I>Номер
+                            MS в роуминге (</I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I>MSRN</I></SPAN></FONT><FONT SIZE=4><I>)</I></FONT><FONT SIZE=4>-
+                            временный сетевой номер, назначаемый
+                            в течение установления соединения для
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>,
+                            находящейся в роуминге. </FONT><FONT SIZE=4><SPAN LANG="en-US">MSRN</SPAN></FONT><FONT SIZE=4>
+                            состоит из трёх частей (рис.2.7):</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+                        <IMG SRC="images/src/html_88f14719.png" NAME="Рисунок 6" ALIGN=BOTTOM WIDTH=337 HEIGHT=96 BORDER=0></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+                        Рис.2.7. Идентификатор <SPAN LANG="en-US">MSRN</SPAN></P>
+                    <P LANG="ru-RU" CLASS="western" STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>В
+                            этом случае </FONT><FONT SIZE=4><SPAN LANG="en-US">SN</SPAN></FONT><FONT SIZE=4>
+                            означает адрес обслуживающего </FONT><FONT SIZE=4><SPAN LANG="en-US">MSC</SPAN></FONT><FONT SIZE=4>/</FONT><FONT SIZE=4><SPAN LANG="en-US">VLR</SPAN></FONT><FONT SIZE=4>.</FONT></FONT></P>
+                    </UL>
+                    <P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><B>Идентификатор
+                            местоположения</B></FONT><FONT SIZE=4> (</FONT><FONT SIZE=4><SPAN LANG="en-US">LAI</SPAN></FONT><FONT SIZE=4>)
+                            – временный сетевой идентификатор,
+                            который тоже требуется для маршрутизации
+                            вызовов. Данный код введён для двух
+                            целей:</FONT></FONT></P>
+                    <OL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Пейджинг.
+                            В этом случае </FONT><FONT SIZE=4><SPAN LANG="en-US">LAI</SPAN></FONT><FONT SIZE=4>
+                            используется для информирования </FONT><FONT SIZE=4><SPAN LANG="en-US">MSC</SPAN></FONT><FONT SIZE=4>
+                            о </FONT><FONT SIZE=4><SPAN LANG="en-US">LA</SPAN></FONT><FONT SIZE=4>,
+                            в которой находится </FONT><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>.</FONT></FONT></P>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4>Обновление
+                            местоположения абонента.</FONT></FONT></P>
+                    </OL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">LAI</SPAN></FONT><FONT SIZE=4>
+                            состоит из следующих блоков (рис.2.8):</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <FONT COLOR="#ffffff"><FONT SIZE=4>идентификатор абонент
+                            мобильный локальный</FONT></FONT></P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <IMG SRC="images/src/html_e9e225a2.png" NAME="Рисунок 5" ALIGN=BOTTOM WIDTH=345 HEIGHT=128 BORDER=0></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        Рис.2.8 Идентификатор <SPAN LANG="en-US">LAI</SPAN></P>
+                    <P LANG="ru-RU" CLASS="western" STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">Location</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Area</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Code</SPAN></FONT><FONT SIZE=4>
+                            (</FONT><FONT SIZE=4><SPAN LANG="en-US">LAC</SPAN></FONT><FONT SIZE=4>)
+                            - код местоположения, максимальная
+                            длина LAC составляет 16 бит, что позволяет
+                            определить 65536 различных </FONT><FONT SIZE=4><SPAN LANG="en-US">LA</SPAN></FONT><FONT SIZE=4>
+                            внутри одной </FONT><FONT SIZE=4><SPAN LANG="en-US">PLMN</SPAN></FONT><FONT SIZE=4>.</FONT></FONT></P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><I><B>Cell Global Identity (CGI)</B></I></FONT><FONT SIZE=4>
+                            используется для идентификации
+                            индивидуальной соты внутри LA. Идентификация
+                            соты осуществляется посредством
+                            добавления параметра Cell Identity (CI) к
+                            компонентам LAI. CI имеет размер 16 бит.CGI
+                            состоит из (рис.2.9):</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <FONT COLOR="#424242"><IMG SRC="images/src/html_934bec7.gif" NAME="Прямоугольник 49" ALT="Прямоугольник 49"></FONT><FONT COLOR="#424242"><IMG SRC="images/src/html_6a2b0fc.jpg" NAME="Рисунок 51" ALIGN=BOTTOM WIDTH=442 HEIGHT=162 BORDER=0></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4>Рис.2.9. Идентификатор CGI</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><I><B>Глобальный идентификатор
+                            соты </B></I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I><B>CGI</B></I></SPAN></FONT><FONT SIZE=4><I>
+                        </I></FONT><FONT SIZE=4>(</FONT><FONT SIZE=4><SPAN LANG="en-US">Cell</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Global</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Identity</SPAN></FONT><FONT SIZE=4>)
+                            используется для идентификации
+                            индивидуальной соты внутри </FONT><FONT SIZE=4><SPAN LANG="en-US">LA</SPAN></FONT><FONT SIZE=4>.
+                            Идентификация соты осуществляется
+                            посредством добавления параметра </FONT><FONT SIZE=4><SPAN LANG="en-US">Cell</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Identity</SPAN></FONT><FONT SIZE=4>
+                            (</FONT><FONT SIZE=4><SPAN LANG="en-US">CI</SPAN></FONT><FONT SIZE=4>)
+                            к компонентам </FONT><FONT SIZE=4><SPAN LANG="en-US">LAI</SPAN></FONT><FONT SIZE=4>.
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">CI</SPAN></FONT><FONT SIZE=4>
+                            имеет размер 16 бит. </FONT><FONT SIZE=4><SPAN LANG="en-US">CGI</SPAN></FONT><FONT SIZE=4>
+                            состоит из (рис.2.10):</FONT></FONT></P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <IMG SRC="images/src/html_8998732b.png" NAME="Рисунок 4" ALIGN=BOTTOM WIDTH=413 HEIGHT=151 BORDER=0></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        Рис.2.10. Идентификатор <SPAN LANG="en-US">CGI</SPAN></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" CLASS="western" STYLE="line-height: 100%"><I>Идентификационный
+                            код БС (</I><SPAN LANG="en-US"><I>BSIC</I></SPAN><I>)</I>дает
+                            возможность MS различать соты.</P>
+                        <LI><P LANG="ru-RU" CLASS="western" STYLE="line-height: 100%"><SPAN LANG="en-US">BSIC</SPAN>
+                            состоит из (рис.2.11):</P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <IMG SRC="images/src/html_72b77fa6.png" NAME="Рисунок 3" ALIGN=BOTTOM WIDTH=287 HEIGHT=97 BORDER=0></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        Рис.2.11 Идентификатор <SPAN LANG="en-US">BSIC</SPAN></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">NCC</SPAN></FONT><FONT SIZE=4>
+                            – </FONT><FONT SIZE=4><SPAN LANG="en-US">National</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Color</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Code</SPAN></FONT><FONT SIZE=4>
+                            (национальный цветовой код). Используется
+                            для того, чтобы разграничивать зоны
+                            действия операторов в тех местах, где
+                            сети операторов перекрывают друг друга.</FONT></FONT></P>
+                    </UL>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">BCC</SPAN></FONT><FONT SIZE=4>
+                            – </FONT><FONT SIZE=4><SPAN LANG="en-US">Base</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">station</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Color</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Code</SPAN></FONT><FONT SIZE=4>
+                            (цветовой код базовой станции).
+                            Используется для того, чтобы различать
+                            между собой базовые станции, использующие
+                            одинаковые частоты. </FONT></FONT>
+                        </P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><I><B>Номер местоположения
+                        </B></I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I><B>LN</B></I></SPAN></FONT><FONT SIZE=4><I>,
+                        </I></FONT><FONT SIZE=4>номер определённой
+                            географической зоны </FONT><FONT SIZE=4><SPAN LANG="en-US">LA</SPAN></FONT><FONT SIZE=4>,
+                            зона обслуживания </FONT><FONT SIZE=4><SPAN LANG="en-US">MSC</SPAN></FONT><FONT SIZE=4>/</FONT><FONT SIZE=4><SPAN LANG="en-US">VLR</SPAN></FONT><FONT SIZE=4>.
+                            Данный номер используется для
+                            регионального/локального абонирования
+                            услуг сети мобильной связи и для
+                            тарификации на основе географического
+                            местоположения абонента.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">LN</SPAN></FONT><FONT SIZE=4>
+                            состоит из </FONT>идентификатор ДТ<FONT SIZE=4>
+                            (рис.2.12):</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <IMG SRC="images/src/html_5a030f0d.png" NAME="Рисунок 2" ALIGN=BOTTOM WIDTH=341 HEIGHT=94 BORDER=0></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        Рис.2.12. Идентификатор ДТ</P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">LSP
+	Locally Significant Part. </SPAN></FONT><FONT SIZE=4>Локально</FONT><FONT SIZE=4><SPAN LANG="en-US">
+	</SPAN></FONT><FONT SIZE=4>важная</FONT><FONT SIZE=4><SPAN LANG="en-US">
+	</SPAN></FONT><FONT SIZE=4>часть</FONT></FONT></P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><I><B>Идентификатор локальной
+                            зоны абонирования (</B></I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I><B>RSZI</B></I></SPAN></FONT><FONT SIZE=4><I><B>).
+                        </B></I></FONT><FONT SIZE=4>Для каждого регионального
+                            абонирования необходимо определить
+                            зоны/области. Последнее достигается
+                            путем использования идентификатора
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Regional</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Subscription</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Zone</SPAN></FONT><FONT SIZE=4>
+                            Identity (RSZI).</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4>Идентификатор </FONT><FONT SIZE=4><SPAN LANG="en-US">RSZI</SPAN></FONT><FONT SIZE=4>
+                            представлена на рис.2.13.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <IMG SRC="images/src/html_e703cb42.png" NAME="Рисунок 1" ALIGN=BOTTOM WIDTH=323 HEIGHT=91 BORDER=0></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        Рис.2.13 Идентификатор <SPAN LANG="en-US">RSZI</SPAN></P>
+                    <P LANG="ru-RU" CLASS="western" STYLE="margin-left: 0in; text-indent: 0.49in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <UL>
+                        <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="line-height: 100%"><FONT SIZE=3><FONT SIZE=4><SPAN LANG="en-US">ZC</SPAN></FONT><FONT SIZE=4>
+                            - Зональный код. Длина кода - 2 октета.</FONT></FONT></P>
+                    </UL>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <FONT SIZE=3><FONT SIZE=4><I><B>Конфиденциальная
+                            процедура идентификации абонента.
+                        </B></I></FONT><FONT SIZE=4>Каждый раз, когда MS делает
+                            запрос на системные процедуры (</FONT><FONT SIZE=4><SPAN LANG="en-US">LU</SPAN></FONT><FONT SIZE=4>,
+                            попытка вызова или активация сервиса)
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">MSC</SPAN></FONT><FONT SIZE=4>/</FONT><FONT SIZE=4><SPAN LANG="en-US">VLR</SPAN></FONT><FONT SIZE=4>
+                            ставит новый </FONT><FONT SIZE=4><SPAN LANG="en-US">TMSI</SPAN></FONT><FONT SIZE=4>.
+                            В соответствие с </FONT><FONT SIZE=4><SPAN LANG="en-US">IMSIMSC</SPAN></FONT><FONT SIZE=4>/</FONT><FONT SIZE=4><SPAN LANG="en-US">VLR</SPAN></FONT><FONT SIZE=4>
+                            передаёт </FONT><FONT SIZE=4><SPAN LANG="en-US">TMSI</SPAN></FONT><FONT SIZE=4>
+                            в MS, которая хранит его в </FONT><FONT SIZE=4><SPAN LANG="en-US">SIM</SPAN></FONT><FONT SIZE=4>-карте.
+                            Сигнализация между </FONT><FONT SIZE=4><SPAN LANG="en-US">MSC</SPAN></FONT><FONT SIZE=4>/</FONT><FONT SIZE=4><SPAN LANG="en-US">VLR</SPAN></FONT><FONT SIZE=4>
+                            и </FONT><FONT SIZE=4><SPAN LANG="en-US">MS</SPAN></FONT><FONT SIZE=4>
+                            использует только на основе </FONT><FONT SIZE=4><SPAN LANG="en-US">TMSI</SPAN></FONT><FONT SIZE=4>.
+                            Таким образом, реальный номер абонента
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">IMSI</SPAN></FONT><FONT SIZE=4>
+                            не передается через радиоэфир. </FONT><FONT SIZE=4><SPAN LANG="en-US">TMSI</SPAN></FONT><FONT SIZE=4>
+                            в два раза короче </FONT><FONT SIZE=4><SPAN LANG="en-US">IMSI</SPAN></FONT><FONT SIZE=4>,
+                            следовательно, в одном сообщении можно
+                            передать пейджинг для двух абонентов.
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">IMSI</SPAN></FONT><FONT SIZE=4>
+                            используется тогда, когда процедура
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Location</SPAN></FONT><FONT SIZE=4>
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">Updating</SPAN></FONT><FONT SIZE=4>
+                            выполнена неудачно или не назначен
+                        </FONT><FONT SIZE=4><SPAN LANG="en-US">TMSI</SPAN></FONT><FONT SIZE=4>.</FONT></FONT></P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <BR>
+                    </P>
+                    <P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+                        <BR>
+                    </P>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </article>
+    </div>
+</div>
+
+
+<!--Load JavaScript-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+<script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+<script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+<script type='text/javascript' src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
+<script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+<script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/main.js'></script>
+</body>
+</html>

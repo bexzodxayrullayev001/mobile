@@ -1,0 +1,869 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Определение мобильного приложения</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by Colorlib" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="Colorlib" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
+        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='style.css' />
+
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+
+    <body class="single-post">
+
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="images/ajax-document-loader.gif" alt="Loading...">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Left Sidebar -->
+        <div id="sidebar" class="sidebar">
+            <div class="menu-left-part">
+                <div class="search-holder">
+                    <label>
+                        <input type="search" class="search-field" placeholder="Type here to search..." value="" name="s"
+                               title="Search for:">
+                    </label>
+                </div>
+                <div class="site-info-holder">
+                    <h1 class="site-title">Учебник по курсу</h1>
+                    <p class="site-description">
+                        «GSM and mobility management»
+                        (GSM и управление мобильностью)
+                    </p>
+                </div>
+                <nav id="header-main-menu">
+                    <ul class="main-menu sm sm-clean">
+                        <li><a href="index.html" >Главный</a></li>
+                        <li><a href="part_6.1.html" >6.1. Определение мобильного приложения</a></li>
+                        <li><a href="part_6.2.html">6.2. Выбор видов приложений при технической реализации
+                            проектов</a></li>
+                        <li><a href="part_6.3.html" class="current">6.3. Примеры использования GSM приложений
+                        </a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <div class="footer-info">
+                        ТАШКЕНТСКИЙ УНИВЕРСИТЕТ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ ИМЕНИ МУХАММАДА АЛ-ХОРЕЗМИЙ <br> Факультет «Радио и
+                        мобильной связи» <a href="tuit.uz">Кафедра «Технологии мобильной связи»</a> Ташкент 2019 <i
+                            class="fa fa-book"></i>
+                    </div>
+                </footer>
+            </div>
+            <div class="menu-right-part">
+                <div class="logo-holder">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Suppablog WP">
+                    </a>
+                </div>
+
+                <div class="toggle-holder">
+                    <div id="toggle">
+                        <div class="menu-line"></div>
+                    </div>
+                </div>
+                <div class="social-holder">
+                    <div class="social-list">
+                        <a href="part_1.html"><i class="fa fa-signal" title="Глава 1. Сотовая связь стандарта GSM"></i></a>
+                        <a href="part_2.html"><i class="fa fa-mobile-phone" title="Глава 2. Управление мобильностью"></i></a>
+                        <a href="part_3.html"><i class="fa fa-mixcloud"
+                                                 title="Глава 3. Аспекты безопасности, протоколы сети, частотный план и структура кадров в стандарте GSM"></i></a>
+                        <a href="part_4.html"><i class="fa fa-barcode"
+                                                 title="Глава 4. Обработка речи в стандарте GSM и проблемы,  возникающие при передачи радиосигналов"></i></a>
+                        <a href="part_5.html"><i class="fa fa-feed"
+                                                 title="Глава 5. Управление сетями связи в стандарте GSM"></i></a>
+                        <a href="part_6.html"><i class="fa fa-tablet" title="Глава 6. Мобильное приложение в стандартеGSM"></i></a>
+                    </div>
+                </div>
+                <div class="fixed scroll-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+        <!-- Single Content -->
+        <div id="content" class="site-content center-relative">
+            <div class="single-post-wrapper content-1070 center-relative">
+
+                <article class="center-relative">
+                    <h1 class="entry-title">
+                       Глава 6.3. Примеры использования приложений
+                    </h1>
+                     
+
+                    <div class="entry-content">
+                        <div class="content-wrap content-660 center-relative">
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#323232"><FONT SIZE=4>В основе
+применения </FONT></FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>
+приложений</FONT><FONT COLOR="#323232"><FONT SIZE=4>чаще
+всего используетсяGSM-модуль, позволяющий
+управлять дистанционно любой автоматикой,
+принимая сигнал с телефона, работающего
+в диапазоне GSM, и осуществляя
+включение/выключение подсоединенной
+аппаратуры.&nbsp;Применяется он для
+открытия распашных и откатных ворот,
+шлагбаума на паркингах, автостоянках,
+в дачных и гаражных кооперативах, частных
+домах, удаленного управления инженерными
+системами полива, освещения, отопления,
+перезагрузки серверов и роутеров и т.д
+[22].</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT COLOR="#323232"><FONT SIZE=4>Наиболее широкое
+распространение GSM-модуль получил как
+надежный и бюджетный контроллер для
+управления групповым доступом на объект,
+совместимый с популярной автоматикой
+ворот и шлагбаумов Doorhan и Came.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><I>Как работает модуль.</I></FONT><FONT COLOR="#323232"><FONT SIZE=4>По
+сути GSM-модуль — это радиоприемник с
+установленной sim картой любого оператора
+сотовой связи и контроллер для обработки
+поступающей и исходящей информации. В
+базу данных модуля заносятся телефонные
+номера всех пользователей, имеющих
+право доступа на закрытую территорию.
+Современные модели поддерживают запись
+и хранение до 2000 номеров, более дорогие
+модификации способны обрабатывать до
+10000 номеров.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Принцип работы устройства
+показан на рис.6.1.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT COLOR="#ff0000"><A HREF="http://arze.ru/wp-content/uploads/2016/04/otkryvanie-vorot-zvonkom-s-sotovogo-GSM-telefona.png"><IMG SRC="images/src/html_a16f30d5.png" NAME="Рисунок 108" ALIGN=BOTTOM WIDTH=609 HEIGHT=412 BORDER=0></A></FONT><FONT SIZE=3><FONT SIZE=4>Рис.6.1.
+Принцип работы устройства открывание
+ворот</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#1e1e1e"><FONT SIZE=4>Принципиальная
+схема работы устройства. </FONT></FONT><FONT COLOR="#323232"><FONT SIZE=4>При
+осуществлении звонка контроллер
+производит сверку входящего номера с
+записанными данными, и при его наличии
+в памяти подается команда на осуществление
+открытия и приведение в действие привода
+шлагбаума и откатных ворот. Если номера
+в списке нет, то устройство просто
+сбрасывает звонок, не производя больше
+никаких действий. Подобным же образом
+контроллер открывает распашные ворота,
+оборудованные электрозамком и приводом
+Doorhan или Came.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT COLOR="#323232"><FONT SIZE=4>Соединения со звонящим
+абонентом не происходит, либо оно
+обрывается через несколько секунд,
+благодаря чему расходы на оплату услуг
+сотовой связи равны нулю. Если данные
+не совпадают, то пропуск через ограждающее
+устройство не предоставляется. В
+некоторых моделях существует возможность
+отключения идентификации, и пропуск
+осуществляется при любом входящем
+звонке на контроллер. Настройка блока
+управления GSM-модулем выполняется с
+помощью смс-команд, веб-интерфейса,
+программы на компьютере, подключенному
+через USB-порт, android-приложения для
+смартфонов.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>Следующим
+примером является автоматическая
+дистанционная GSM-система управления
+отоплением. </I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>Дистанционное
+автоматическое управление системой
+отопления загородного дома может быть
+частью общей автоматизации инженерных
+систем, охраны,&nbsp;</FONT></FONT><FONT SIZE=4><A HREF="https://www.rmnt.ru/story/automation/1060182.htm">противопожарной
+безопасности</A>, </FONT><FONT COLOR="#000000"><FONT SIZE=4>известной
+под названием «Умный дом», или работать
+самостоятельно, обеспечивая заданный
+уровень комфорта к&nbsp;приезду хозяев.
+Использование GSM-модулей позволяет
+запускать и&nbsp;контролировать
+автоматические процессы с помощью
+установленного на сотовый телефон
+мобильного приложения.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%"><A NAME="go-princip-dejstvija-gsm-sistemy"></A>
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>Принцип
+действия GSM-системы. </I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>Если
+пользоваться домом от случая к случаю,
+то отопление может работать в следующих
+режимах:</FONT></FONT></FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>ручное
+    управление — приехал, включил, дождался
+    прогрева дома, выключил, уехал— низкий
+    уровень комфорта, риск замерзания
+    трубопроводов;</FONT></FONT></FONT></P>
+</UL>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>автоматическое
+    поддержание «холостого» или «рабочего»
+     температурного режима — высокие
+    затраты на отопление, риск возникновения
+    пожара;</FONT></FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>включение
+    и поддержание температурного режима
+    с удалённого источника — в случае
+    приезда или в&nbsp;аварийной ситуации
+    (возгорание, промерзание трубопроводов)&nbsp;—
+    высокий уровень комфорта и безопасности,
+    низкие затраты на энергоносители.</FONT></FONT></FONT></P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Последний
+вариант представляется самым оптимальным,
+хотя и требует предварительной адаптации
+системы отопления (в том числе и котла)
+и приобретения, собственно, самого
+модуля.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Принцип
+действия системы состоит из внешнего
+воздействия на GSM-устройство, которое
+подает команды на включение системы
+отопления в заданном режиме. </FONT></FONT><FONT SIZE=4>Принципиальная
+схема GSM-управления приведена на рис.6.2.</FONT></FONT></P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<IMG SRC="images/src/html_991964bf.png" NAME="Рисунок 11" ALIGN=BOTTOM WIDTH=544 HEIGHT=384 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>Рис.6.2. Принципиальная
+схема GSM-управления</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Включается
+котёл, запускается работа климатических
+и системных датчиков, передающих
+информацию на контроллеры, которые её
+анализируют и выдают команды исполнительным
+механизмам:</FONT></FONT></FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>открытие,
+    закрытие, регулирование трубопроводной
+    арматуры;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>увеличение,
+    снижение мощности или отключение котла;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="line-height: 100%"><FONT SIZE=4>блокировка
+    вышедших из строя элементов.</FONT></P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4>В свою очередь, система
+передает данные </FONT><FONT SIZE=4><SPAN LANG="en-US">GSM</SPAN></FONT><FONT SIZE=4>-модулю,
+который посылает сообщения в виде </FONT><FONT SIZE=4><SPAN LANG="en-US">SMS</SPAN></FONT><FONT SIZE=4>
+на командное устройство (мобильный
+телефон, планшет и т.д.): информацию о
+температуре в помещении, о температуре
+теплоносителя, о нештатных ситуациях.
+Причем получение сообщений зависит от
+возможностей и заданных настроек.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT SIZE=4><I>Рассмотрим также </I></FONT><FONT SIZE=4><SPAN LANG="en-US"><I>GSM</I></SPAN></FONT><FONT SIZE=4><I>
+сигнализацию, её функциональные
+возможности и преимущества. </I></FONT><FONT COLOR="#000000"><FONT SIZE=4>Охрана
+домов, дач, квартир и гаражей является
+достаточно сложной задачей, для
+эффективного решения которой возникает
+потребность в применении различных
+защитных систем. Наиболее эффективным
+охранным комплексом, отличающимся
+широкими функциональными возможностями
+и высоким уровнем безопасности, является
+GSM сигнализация (рис.6.3).</FONT></FONT></FONT></P>
+<P LANG="en-US" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<IMG SRC="images/src/html_eac5073d.png" NAME="Рисунок 126" ALIGN=BOTTOM WIDTH=615 HEIGHT=451 BORDER=0></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Рис.6.3. Охранный
+комплекс с GSM сигнализацией</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Эта инновационная
+разработка обеспечивает одновременный
+контроль объекта и мгновенную подачу
+предупредительных сигналов владельцу
+и соответствующим службам при возникновении
+ситуаций проникновения и взлома.
+</FONT></FONT><FONT SIZE=4>Отличительной чертой
+таких систем является то, что кроме
+защиты от воров и злоумышленников,
+такого рода охранные комплексы позволяют
+следить за безопасностью на объекте в
+целом, предохраняя его от возможного
+пожара, затопления водой или от утечки
+газа.</FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Важным является также и то, что
+для передачи сигналов об опасности
+используются высокочастотные каналы
+сотовой связи, а не проводные магистрали,
+которые могут легко повредить
+злоумышленники.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>ДЖСМ сигнализация
+представляет собой электронную систему,
+которая включает в свой состав несколько
+функциональных модулей. Они обеспечивают
+непрерывный контроль ситуации на объекте
+(движение, взлом, повышение температуры,
+задымленность, утечка газа/воды),
+срабатывают при возникновении одной
+или нескольких внештатных ситуаций и
+передают соответствующий сигнал тревоги
+на мобильные устройства владельца либо
+совершают дозвон на запрограммированные
+стационарные номера.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>В качестве
+устройств, с помощью которых контролируется
+состояние объекта, используются
+специальные датчики и чувствительные
+сенсоры.Они могут быть проводными
+или&nbsp;</FONT></FONT><A HREF="http://bezopasnostin.ru/gsm-signalizatsiya/besprovodnaya-gsm-signalizatsiya.html"><FONT SIZE=4>беспроводными</FONT></A><FONT COLOR="#000000"><FONT SIZE=4>&nbsp;в
+зависимости от чего их связь с центральным
+электронным блоком поддерживается за
+счет радиоканала или проводной магистрали.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Центральный электронный модуль
+представляет собой микропроцессорное
+устройство, с помощью которого
+настраивается охранная сигнализация
+GSM, обрабатываются сигналы от датчиков
+и приводятся в действие исполнительные
+системы в виде светозвуковой сигнализации.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>В состав центрального электронного
+блока входит ключевой элемент такого
+рода сигнализаций – GSM адаптер. Он
+представляет собой модуль сотовой
+связи, который поддерживает установку
+одной или двух SIM-карт и программирование
+мобильных и стационарных номеров, на
+которые можно будет вести рассылку
+предупредительных сигналов и совершать
+дозвон в случае возникновения взлома
+или внештатной ситуации.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Еще одним немаловажным элементом,
+благодаря которому охранная система
+GSM функционирует непрерывно, является
+система питания. Преимущественное
+большинство сигнализаций владеют двумя
+системами – стационарной и автономной.
+Первая из них обеспечивает питание от
+сети 220&nbsp;В, а вторая работает от
+встроенного аккумулятора.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4><SPAN STYLE="background: #ffffff">Применение
+резервной автономной системы позволяет
+поддерживать работоспособность охраны
+даже в случае аварийного отключения
+основной сети или ее преднамеренного
+повреждения злоумышленниками.</SPAN></FONT></P>
+<P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Отличительной чертой, которой
+владеют охранные электронные комплексы,
+является поддержка широкого спектра
+различных датчиков. ЖСМ сигнализация
+может работать со следующими устройствами:</FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#0000ff"><A HREF="http://bezopasnostin.ru/gsm-signalizatsiya/datchik-dvizheniya-gsm.html"><FONT COLOR="#000000"><FONT SIZE=4><SPAN STYLE="text-decoration: none">датчики
+    движения</SPAN></FONT></FONT></A></FONT><FONT SIZE=4>;</FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>миниатюрные видеокамеры;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>акустические датчики;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>термочувствительные сенсоры;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>датчики изменения объема и
+    массы;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>пожарные датчики;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>мультифункциональные сенсоры,
+    реагирующие на утечку воды, газа, </FONT>
+    </P>
+</UL>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>появление дыма.</FONT></P>
+</UL>
+<P LANG="ru-RU" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Если на объекте
+планируется GSM охрана</FONT></FONT><STRONG CLASS="western"><FONT COLOR="#000000"><FONT SIZE=4>,</FONT></FONT></STRONG><FONT COLOR="#000000"><FONT SIZE=4>
+GSM сигнализация с различными функциональными
+датчиками будет оптимальным вариантом.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Наличие перечисленных устройств
+позволит реализовать многофункциональную
+систему охраны дома или квартиры от
+непрошенных гостей и от различных
+аварийных ситуаций.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Охранные
+системыGSM сигнализация в процессе своей
+работы поддерживает:</FONT></FONT></FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>оперативное оповещение владельцев
+    с помощью SMS или MMS сообщений;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>дозвон на внесенные в память
+    мобильные/стационарные телефонные
+    номера;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>связь с владельцем охраняемого
+    объекта, диспетчером или полицией/охранной
+    компанией;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>ведение видеонаблюдения или
+    звуковой записи по периметру объекта;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>функционирования
+    факторов психологического сдерживания
+    злоумышленника в виде звуковой сирены
+    и световой сигнализации;</FONT></FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>работу исполнительных систем
+    и механизмов, которые обеспечивают
+    пожаротушение, удаление дыма из
+    помещений, перекрытие подачи газа/воды
+    или электричества;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>возможность постановки и снятия
+    с охраны с помощью звонка, SMS-сообщения
+    или DTMF-команды;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>использование системы,
+    препятствующей блокированию
+    злоумышленниками </FONT>
+    </P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>передачи сигнала тревоги через
+    радиоканал.</FONT></P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>Преимущества
+</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>сотовых
+сигнализаций</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>.</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>GSM
+охрана по сравнению с иными системами
+безопасности владеет целым рядом
+преимуществ, среди которых:</FONT></FONT></FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>поддержка отправки сигнала
+    тревоги сразу на несколько
+    запрограммированных номеров;</FONT></P>
+</UL>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>возможность совершения дозвона
+    как на мобильные номера, так и на
+    стационарные телефоны;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>оповещение о тревоге различными
+    способами – звонок, SMS/MMS сообщение,
+    звуковое/видеовещение с объекта,
+    звуковая/световая сигнализация;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>высокий уровень защищенности
+    от взлома и блокирования работы такого
+    рода сигнализаций;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>возможность работы от автономных
+    источников питания;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>автоматический контроль степени
+    зарядки батареи и наличия денег на
+    SIM-карте;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>возможность использования
+    нескольких SIM-карт разных операторов
+    мобильной связи;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>одна система GSM имеет возможность
+    параллельного контроля нескольких
+    объектов;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>поддержка обратной связи с
+    мобильными устройствами владельца
+    (пульт,мобильный телефон, планшет,
+    смартфон и пр.).</FONT></P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>К </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>недостаткам</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+сотовых сигнализацийGSM относятся:</FONT></FONT></FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>зависимость от качества сотовой
+    связи;</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>для максимальной эффективности
+    работы сигнализации потребуются услуги
+    диспетчера;</FONT></P>
+</UL>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=LEFT STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>достаточно высокая стоимость.</FONT></P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Система
+охранной GSM сигнализации выбирается по
+следующим  критериям:</FONT></FONT></FONT></P>
+<OL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Подбираются
+    датчики по типу подключения и
+    функциональности. По способу подключения
+    датчики могут быть беспроводными или
+    проводными. Второй вариант стоит
+    дешевле, но предусматривает дополнительные
+    работы по прокладке коммутационных
+    проводников от датчика к центральному
+    электронному блоку. </FONT></FONT></FONT>
+    </P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>Важно чтобы GSM сигнализация
+    поддерживала работу с несколькими
+    операторами связи. Это исключит ее
+    простой при отсутствии сигнала связи
+    у одного из операторов.</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=4>Если требуется мультифункциональная
+    система безопасности объекта важно
+    выбирать комплексы охраны, которые
+    поддерживают широкий спектр различных
+    датчиков.</FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Чтобы исключить
+    блокирование передачи сигнал тревоги
+    с помощью специальных электронных
+    приспособлений, важно чтобы системы
+    GSM сигнализации поддерживали технологию
+    защиты сигналов от глушения извне.</FONT></FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>При выборе
+    охранных систем нужно обратить внимание
+    на наличие автономной системы питания
+    и продолжительности работы устройств
+    от нее. Независимый источник питания
+    позволит исключить ситуации, когда
+    охранные системы GSM сигнализации
+    пребывают в неработоспособном состоянии.</FONT></FONT></FONT></P>
+</OL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.3in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>В заключении
+рассмотрим, как построить «</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Умный
+Дом»</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4> своими
+руками. </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Умный
+Дом</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4> - это
+доступно, это просто, это нужно, без
+этого уже нельзя жить. Современная
+квартира, а тем более дом, коттедж, дача,
+</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>офис</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+- это сложный набор различных систем и
+коммуникаций - источников возможной
+опасности пожара, взрыва, затопления.Кроме
+того, это многочисленные окна и двери
+- места возможного нежелательного
+проникновения в Ваши владения и научить
+свой дом </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>уму-разуму</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+можно своими руками без посторонней
+помощи. </FONT></FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Прежде всего, стоит осознать,
+что интеллектуальный дом - это
+централизованная система контроля и
+управления отдельными элементами,
+установленными по всему дому. В целом
+данные элементы можно разделить на
+несколько групп:</FONT></P>
+<OL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Элементы
+    охраны.</FONT></FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Элементы
+    пожарной безопасности.</FONT></FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Устройства
+    для контроля водоснабжения и газа.</FONT></FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Элементы
+    домашней автоматики.</FONT></FONT></FONT></P>
+</OL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Для того,
+чтобы самому собрать &quot;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Умный
+дом</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>&quot;
+нужно пройти несколько этапов:</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><B>1 этап</B></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+Постановка проблемы.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Прежде всего,
+необходимо определиться &quot;Что должна
+уметь система?&quot;. Если устанавливается
+&quot;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Умный
+дом</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>&quot;
+ради престижа, то тогда не стоит тратить
+время на изучение всех тонкостей. Лучше
+сразу обратиться к профессионалам
+премиум-класса за баснословную сумму.
+Однако если решаетесь на самостоятельную
+сборку системы, следует четко сформулировать
+проблему. Например, </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>&quot;Желательно
+получать SMS-сообщения о несанкционированном
+проникновении в мой дом&quot;</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+что позволяет сузить круг оборудования,
+отпадают всевозможные датчики утечки
+дыма/газа, </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>модуль</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+домашней автоматики и т.д.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><B>2 этап</B></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+Получение консультации технического
+специалиста.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Прежде чем
+начать </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>поиск</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+соответствующих элементов, необходимо
+связаться с техническим специалистом.
+Технический специалист, найти которого
+можно через </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Интернет</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>-</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>сайт</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+компании, предоставляющей подобные
+услуги, расскажет, какие именно элементы
+необходимо для выполнения тех или иных
+функций. Таким образом, сложится&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>представление</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+о примерной стоимости решения
+запланированной проблемы, а также о
+необходимых элементах, и круг оборудования
+станет еще уже.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><B>3 этап</B></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+Выбор производителя.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Выбор производителя - одно из
+самых сложных и кропотливых занятий,
+которое у неподготовленного человека
+займет уйму времени.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Системы
+различных производителей имеют свои
+отличительные черты, особенности и
+нюансы. Например, если один производитель
+предлагает встроенный </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>GSM</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>-</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>модуль</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+(</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Модуль</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+для управления системой с мобильного
+телефона), то другой предлагает его
+отдельно и так далее. Поэтому для
+дальнейшего сбора &quot;Умного дома&quot;
+нужно определиться с производителем.
+Для самостоятельной сборки &quot;Умного
+дома&quot; необходимо выбрать одного
+производителя (!). Нельзя взять датчик
+Jablotron, контрольную панель </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Electronics</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Line</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+пульт управления&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Siemens</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+Теоретически совмещать оборудование
+различных производителей можно, но мы
+не рекомендуем делать это без практической
+помощи технического специалиста. Таким
+образом, цель при поиске - выбрать одного
+производителя. В Интернете можно найти
+сайты производителей и подробно изучить
+системы и элементы каждого. Позвонив
+впроизводителюможно узнать нюансы и
+особенности каждой системы.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><B>4 этап</B></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Поиск</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+необходимых элементов и оформление
+заказа.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>В результате
+трех пройденных этапов, должны иметь
+четкое&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>представление</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>&nbsp;о
+том, как должна выглядеть система и из
+каких элементов она будет состоять.
+Рекомендуется расписать состав системы
+на листке бумаги, так будет проще
+сориентироваться в море выплывающих
+нюансов. Необходимо также указать
+количество устройств исходя из количества
+комнат в жилище. Теперь главное - собрать
+эти элементы в одну корзину. Для примера
+возьмем стандартный вариант против
+проникновения:</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>Решение
+против проникновения с оповещением по
+SMS для одной комнаты</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Состав системы:</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><B>Контрольная
+панель с </B></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I><B>GSM</B></I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><B>-модулем
+и встроенной клавиатурой</B></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+(&quot;Мозг&quot; всей системы, по радиоканалу
+принимает информацию от датчиков и
+других устройств, находящихся в доме,
+и команды, поступающие непосредственно
+от владельца системы) - 1 шт.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><B>Магнитоконтакт
+(устройство,фиксирующее открытие/закрытие
+входной двери.</B></FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Датчик движения - 1 шт. (Инфракрасный
+детектор)</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>Брелок - 2 шт. (В семье будет два
+пользователя системой)</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Следует
+обратить внимание на то, что один и тот
+же производитель может предлагать
+различные варианты одного и того же
+датчика. Самым распространенным вариантом
+является датчик движения (бывают
+датчик-шторка, датчик, не реагирующий
+на животных, и т.д.). Уточните состав
+системы, найдите&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Интернет</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>-магазин,
+предлагающий данные элементы и оформите
+заказ.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><B>5 этап</B></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+Выбор тарифа и мобильного оператора.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>После
+приобретения всех необходимых
+элементоврекомендуется изучать все
+инструкции, и подробно ознакомиться с
+существующими на момент покупки тарифами
+мобильных операторов. При этом особое
+внимание следует обратить на:</FONT></FONT></FONT></P>
+<UL>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>Стоимость</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+    исходящего&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>SMS</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>-сообщения;</FONT></FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>Стоимость</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+    исходящего звонка;</FONT></FONT></FONT></P>
+    <LI><P LANG="ru-RU" ALIGN=JUSTIFY STYLE="background: #ffffff; line-height: 100%">
+    <FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><I>Стоимость</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+    междугороднего/международного звонка.</FONT></FONT></FONT></P>
+</UL>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Рекомендуем
+установить sim-карту выбранного оператора.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=4>В Интернете есть сайты, предлагающие
+сводные таблицы с тарифами, подходящими
+для использования в подобных системах.</FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4><B>6 этап</B></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>.
+</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Программирование</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+установка и тестирование системы.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Три больших
+шага - </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>программирование</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>,
+установка и тестирование системы 
+объединяем в один, так как все эти
+действия сводятся к изучению инструкции
+по инсталляции системы. Внимательно
+прочитайте инструкцию и в случае
+возникших проблем обратитесь за помощью
+к техническому специалисту. </FONT></FONT></FONT>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0in; text-indent: 0.39in; background: #ffffff; line-height: 100%">
+<FONT SIZE=3><FONT COLOR="#000000"><FONT SIZE=4>Как видно,
+</FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>Умный дом</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+можно собрать самостоятельно, но следует
+помнить, что подробное изучение работы
+системы займет не один день и много
+нервов. К сожалению, в Интернете не так
+много специалистов готовых и способных
+подробно расписать особенности каждой
+системы человеку со стороны. Да и с
+наличием необходимых элементов у многих
+проблемы. Поэтому, будет не лишнем
+подумать о &quot;запасном&quot; варианте и
+начать </FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4><I>поиск</I></FONT></FONT><FONT COLOR="#000000"><FONT SIZE=4>
+грамотных специалистов.</FONT></FONT></FONT></P>
+<P LANG="ru-RU" CLASS="western" ALIGN=LEFT STYLE="margin-left: 0in; background: #ffffff; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" ALIGN=LEFT STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+<P LANG="ru-RU" CLASS="western" ALIGN=CENTER STYLE="margin-left: 0in; line-height: 100%">
+<BR>
+</P>
+                             
+                         </div>
+
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            </div>
+        </div>
+
+
+
+        <!--Load JavaScript-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
+        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </body>
+</html>
